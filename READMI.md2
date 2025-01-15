@@ -1,0 +1,1563 @@
+ 1
+1)APT hüjüminiň alamatlary we öňüni almak boýunça dünýä tejribesi.
+APT (Advanced Persistent Threat) hüjüminiň alamatlary we öňüni almak boýunça dünýä tejribesi barada giňişleýin maglumat bermeklikle, olar köp döwletlerde we şirketlerde özgün usullar bilen öňüni almakda ulanyldy.
+APT (Advanced Persistent Threat) hüjüminiň alamatlary:
+1.Gözlenmedik ýörişler: Uzak wagtlap dowam edýän we yzygiderli gaýtalanýan gözlenmedik hereketler.
+2.Kompýuter sistemasyna gözlenmedik girmek: Täze ýa-da gözlenmedik ulgamlara girmegiň alamatlary.
+3.Maksatly phishing hüjümleri: Spear phishing ýa-da sosial inženerçilik arkaly maksatly hüjümler.
+APT hüjümleriniň öňüni almak boýunça dünýä tejribesi:
+1.Güýçli howpsuzlyk çäreleri: Iri kärhanalar we döwlet guramalary ösüşmiş kiberhowpsuzlyk çärelerini kabul edýärler, şol sanda güýçli parollar, iki faktoryly autentifikasiýa, we yzygiderli täzelenişler.
+2.Howpsuzlyk gulplanmasy: Howpsuzlyk gulplanmasy, ugurdaş ulgamlaryň bir-birinden aýrylmagy we her dürli ulgama diňe zerur bolan adamlar tarapyndan elýeterlilik bilen üpjün edilýär.
+3.Mundan beýläkki hüjümlere duýgurlyk: Kärhanalar we döwlet guramalary mundan beýläkki hüjümleriň öňüni almak üçin yzygiderli tälim we habardarlyk programmalaryny amala aşyrýarlar.
+4.Howpsuzlyk auditi: Ýokary tehnologiýaly kärhanalar we döwlet guramalary yzygiderli howpsuzlyk auditi geçirip, zyňytlyklary ýüze çykaryp, olaryň üstünde iş edýärler.
+Advanced Persistent Threats (APT) hüjümleri, guramalaryň maglumatlarynyň dogrulygyny we gizlinligini ýokarlandyrmakda uly rol oýnaýar. Olaryň alamatlary we olara öňüni almak boýunça dünýä tejribeleri aşakda berilýär:
+
+APT Hüjüm Alamatlary
+
+1. Targeted Spear-phishing Emails: Hüjümler, özleriniň hüjümleriniň ýakynlaşmagyny üpjün etmek üçin, özüne yöneltilen e-mailler ulanyýarlar. Bu e-mailler, hüjümler üçin açylýan maglumatlary berýärler.
+2. Unusual Network Traffic: Hüjümler, toruň üstünde ýaramaz maglumatlaryň ýüzi ýokarlandyrmakda uly rol oýnaýarlar. Bu, toruň üstünde ýaramaz maglumatlaryň ýüzi ýokarlandyrmakda uly rol oýnaýarlar.
+3. Unexpected Data Exfiltration: Hüjümler, maglumatlaryň toruň çykan ýerlerinden çykarmakda uly rol oýnaýarlar. Bu, maglumatlaryň toruň çykan ýerlerinden çykarmakda uly rol oýnaýarlar.
+4. Unusual Account Activity: Hüjümler, ulanyjy kontlarynyň ýaramaz hereketlerini ýokarlandyrmakda uly rol oýnaýarlar. Bu, ulanyjy kontlarynyň ýaramaz hereketlerini ýokarlandyrmakda uly rol oýnaýarlar.
+5. Presence of Malware: Hüjümler, toruň içinde ýaramaz programlar ýokarlandyrmakda uly rol oýnaýarlar. Bu, toruň içinde ýaramaz programlar ýokarlandyrmakda uly rol oýnaýarlar.
+
+APT Hüjümleriň Öňüni Almak Boýunça Tejribeler
+
+1. Employee Awareness and Training: Ulanyjylaryň hüjümleriň alamatlaryna we öňüni almak boýunça bilgi berilmesi.
+2. Regular Network Monitoring: Toruň ýüzi we gözegçilik ulgamlaryny ulanyşmak.
+3. Implementing Strong Security Measures: Güýçli goragy we güýçlendirme proseduralaryny ýokarlandyrmak.
+4. Incident Response Plan: Hüjümle duýuşma planyny ýokarlandyrmak.
+5. Threat Intelligence: Hüjüm maglumatlarynyň üstünde bilgi almak we guramalaryň howpsuzlyk goragy ýokarlandyrmak.
+
+Bu tejribeler, APT hüjümlerini ýokaldyrmakda we guramalaryň maglumatlarynyň dogrulygyny we gizlinligini ýokarlandyrmakda köpçülikleýän artykmaçlyklar berýär.
+
+2)OWASP top ten web howplary we olaryň zyýanly täsiri.
+OWASP (Open Web Application Security Project) taşkilaty web-programmalaryň howpsuzlygyna degişli iň uly 10 howpy yzygiderli sanawa geçirýär. Ine, soňky OWASP Top 10 (2021) boýunça esasy web-howplar we olaryň zyýanly netijeleri:
+
+1. Bozulýan elýeterlilik gözegçiligi (Broken Access Control)
+Düşündiriş: Zolaklaryň dogry düzgünleşdirilmezligi sebäpli ulanyjylaryň rugsatsyz maglumatlara ýa-da hereketlere elýeterlilik gazanmagy.
+Netijeler:
+Maglumatlaryň rugsatsyz okalmagy, üýtgedilmegi ýa-da pozulmagy.
+Ulanyjynyň adyndan bikanun hereketleriň ýerine ýetirilmegi.
+
+2. Kriptografik näsazlyklar (Cryptographic Failures)
+Düşündiriş: Şifrleme (enkripsiýa) ulanyşynda kemçilikler ýa-da ony asla ulanmazlyk.
+Netijeler:
+Gizlin maglumatlaryň syzmagy (parollar, bank kartlary we ş.m.).
+Maglumatlaryň gizlinliginiň we bitewiliginiň bozulmagy.
+
+3. Inýeksiýa hüjümleri (Injection)
+Düşündiriş: SQL, NoSQL, OS ýa-da LDAP soraglaryna zyýanly kodyň girizilmegi.
+Netijeler:
+Rugsatsyz maglumatlara elýeterlilik gazanylmagy.
+Serwerleriň ele geçirilmegi we gizlin maglumatlaryň syzmagy.
+
+4. Howpsuzlygyň gowşak taslamasy (Insecure Design)
+Düşündiriş: Programma üpjünçiliginiň başlangyç tapgyrlarynda goraglylyk babatynda ýalňyş meýilleşdirme.
+Netijeler:
+Ulanyş logikasyndaky kemçilikleriň ulanylmagy.
+Uly gorag meselesini çözmek üçin has köp tagalla talap edilmegi.
+
+5. Nädogry konfigurasiýa (Security Misconfiguration)
+Düşündiriş: Serwerleriň, maglumat bazalarynyň ýa-da API-leriň nädogry sazlanmagy.
+Netijeler:
+Aýdyň maglumatlaryň açylmagy.
+Ulanyjylaryň dolandyryş ulgamlaryna rugsatsyz girmegi.
+
+6. Köne ýa-da gowşak komponentler (Vulnerable and Outdated Components)
+Düşündiriş: Ulgamda köne we gowşak howpsuzlykly goşundylaryň ýa-da kitaphanalaryň ulanylmagy.
+Netijeler:
+Bilinen gowşaklyklar arkaly ulgama hüjüm edilmegi.
+Maglumatlaryň syzmagy ýa-da ulgam işiniň bozulmagy.
+
+7. Tanyşdyryş we rugsatlandyryş kemçilikleri (Identification and Authentication Failures)
+Düşündiriş: Ulanyjynyň şahsyýetiniň anyklanmagy ýa-da sesseýalaryň dolandyrylmagynda kemçilikler.
+Netijeler:
+Hasaplaryň ele geçirilmegi.
+Ulanyjynyň adyndan bikanun hereketleriň amala aşyrylmagy.
+
+8. Programma we maglumat bitewiliginiň bozulmagy (Software and Data Integrity Failures)
+Düşündiriş: Maglumatlaryň ýa-da kodyň bitewiliginiň bozulmagy (meselem, tassyklanman geçirilen täzelenmeler).
+Netijeler:
+Zyýanly kodyň ýa-da maglumatlaryň ulgama girizilmegi.
+Ulgamyň bozulmagy.
+
+9. Günä ýükleme we monitoringiň gowşaklygy (Security Logging and Monitoring Failures)
+Düşündiriş: Howpsuzlyk loglarynyň we gözegçilik mehanizmleriniň ýetmezçiligi.
+Netijeler:
+Hüjümleriň wagtynda ýüze çykarylmazlygy.
+Howpsuzlyk wakalarynyň yzarlanmagynyň kynlaşmagy.
+
+10. Serwer taraplaýyn sorag galplaşdyrmasy (Server-Side Request Forgery, SSRF)
+Düşündiriş: Zorluk bilen serweriň üçünji tarap ulgamlaryna rugsatsyz sorag ugratmagy.
+Netijeler:
+Içki maglumatlaryň syzmagy.
+Içki ulgamlara rugsatsyz girmegi.
+
+Howplardan goranmak üçin maslahatlar:
+1.Dürli gorag mehanizmlerini (meselem, WAF) ornaşdyryň.
+2.Täzelikleri yzygiderli geçirip, öňden bellikli gowşaklyklary ýoklaň.
+Programma üpjünçiligini we ulgamy SAST/DAST ýaly synag gurallary bilen gözden geçiriň.
+OWASP (Open Web Application Security Project) Top Ten, web howplaryň esasy ýerleriniň listasydyr, web ulgamalarynyň howpsuzlyk howplarynyň öske çäklilikleriniň ýakyn we köpçülikleýän ýerleriniň ýakunyşyny berýär. Olaryň zyýanly täsiri barada kısaça:
+
+OWASP Top Ten Web Howplary (2021)
+
+1. Broken Access Control: Bu howpla, köp guramalaryň web ulgamalarynyň goragyny ýokarlandyrmakda uly rol oýnaýar. Bu howpla, köp guramalaryň web ulgamalarynyň goragyny ýokarlandyrmakda uly rol oýnaýar.
+2. Cryptographic Failures: Kriptografiýa usullarynyň ýaramazlyklary, maglumatlaryň gizlinligini we dogrulygyny ýokarlandyrmakda uly rol oýnaýar.
+3. Injection: SQL, NoSQL, LDAP, XML we başga injection howplary, web ulgamalarynyň maglumatlarynyň üýtgedilmesine we hüjümlere ýol açar.
+4. Insecure Design: Web ulgamalarynyň guramalarynyň ýaramazlyklarynyň nedeni bolup, bu bolsa hüjümlerden goragy ýokarlandyrmakda uly rol oýnaýar.
+5. Security Misconfiguration: Web ulgamalarynyň goragy we güýçlendirme konfigurasiýalarynyň ýaramazlyklary, hüjümlere ýol açar.
+6. Vulnerable and Outdated Components: Kätişen ulanylanan komponentler we eski versiyalary, hüjümlere ýol açar.
+7. Identification and Authentication Failures: Ulanyjy kabul we onuňlaşma ýaramazlyklary, hüjümlere ýol açar.
+8. Software and Data Integrity Failures: Maglumat we programlaryň dogrulygyny ýokarlandyrmakda ýaramazlyklar, hüjümlere ýol açar.
+9. Security Logging and Monitoring Failures: Goragy we gözegçilik ýaramazlyklary, hüjümleri ýokaldyrmakda uly rol oýnaýar.
+10. Server-Side Request Forgery (SSRF): Server tarafyndan ýazylan talaplaryň ýaramazlyklary, hüjümlere ýol açar.
+
+Bu howplaryň zyýanly täsiri, web ulgamalarynyň goragy, maglumatlaryň dogrulygyny we gizlinligini ýokarlandyrmakda uly rol oýnaýar. Olaryň ýokarlanmasyny üpjün etmek üçin, web ulgamalarynyň guramalarynyň howpsuzlyk goragy we güýçlendirme proseduralaryny ýokarlandyrmak möhümdir.
+
+
+3)Test php.Vuln.com/artists.php?artist=1
+Şu salga sql injection etmeli. (kali sql map)
+
+
+ 2
+1)Blockchain-yň howpsuzlygy amala aşyrmakda ulanýan mehanizmleri
+Elbetde! Blockchain tehnologiýasy, maglumat howpsuzlygyny üpjün etmekde birnäçe mehanizmleri ulanýar. Ine, Blockchain ulgamynyň howpsuzlygyny üpjün etmek üçin ulanylýan esasy mehanizmler:
+
+ 1. Kriptografiýa Usullary
+- Hashing: Her bir blockchain blogy öňki blogyň kriptografik hashini öz içine alýar. Bu, maglumatlaryň üýtgedilmegini kynlaşdyrýar, sebäbi bir blogdaky maglumatlar üýtgedilse, ähli soňky bloglar hem üýtgediler.
+- Sanly Gol: Tranzaksiýalar, iberijiniň hususy açary bilen gol çekilýär, bu bolsa maglumatyň dogrulygyny we ret edilmeýändigini üpjün edýär.
+
+ 2. Konsensus Algoritmleri
+- Iş Subutnamasy (Proof of Work - PoW): Bu algoritm, gatnaşyjylaryň (minerler) tranzaksiýalary tassyklamak we täze blok döretmek üçin çylşyrymly matematiki meseleleri çözmegini talap edýär. Bu, tor üçin hüjümleri kynlaşdyrýar.
+- Paý Subutnamasy (Proof of Stake - PoS): Validatorlar, eýeçilik edýän tangalaryna görä saýlanýar we "pay" edip biljek tangalaryny goýýarlar. Bu, PoW bilen deňeşdirilende energiýa sarp edilişini azaldýar we ykdysady ýardamlar bilen howpsuzlygy üpjün edýär.
+
+ 3. Düşnüksiz Defter Tehnologiýasy
+- Desentralizasiýa: Blockchain maglumatlary toruň dürli nokatlarynda saklanýar, bu bolsa ýeke-täk näsazlyk nokadyny ýok edýär. Bu, toruň hüjümlere we üýtgemelere çydamly bolmagyny üpjün edýär.
+- Üýtgewsizligi: Maglumat bir bloga ýazylan badyna, ony toruň ylalaşmasy bolmazdan üýtgetmek mümkin däl.
+
+ 4. Akyldarlyk Şertnamalary
+- Öz-özünden Işleýän Şertnamalar: Akyldarlyk şertnamalary, blockchain ulgamynda saklanýan programmalar bolup, şertleri awtomatiki ýerine ýetirýär we üpjün edýär. Bu, araçylary azaltmaga we howpsuzlygy we anyklygy ýokarlandyrmaga kömek edýär.
+
+ 5. Yzygiderli Howpsuzlyk Auditi
+- Aşgylyk Synlary: Yzygiderli auditi we synlar blockchain ulgamyndaky howpsuzlyk gowşaklyklaryny ýüze çykarmak we düzetmek üçin kömek edýär.
+
+ 6. Ulanyjy Bilimlendirme we Okuw
+- Howpsuzlyk Üçin Iň Oňat Ulanyş Çemeleşmeleri: Ulanyjylary hususy açarlary goramak we phishing skemalaryny tanamak ýaly iň oňat çemeleşmeler barada öwretmek, umumy blockchain howpsuzlygyny üpjün etmekde örän möhümdir.
+
+Bu mehanizmler, blockchain ulgamynyň çydamly we ygtybarly bolmagyny üpjün edýär we maglumatlaryň bitewiligini, gizlinligini we üýtgewsizligini goraýar.
+
+2)Maglumat howpsuzlygyny üpjün etmekde SIEM we XDR-iň utgaşykly ulanylyşy
+SIEM (Security Information and Event Management) we XDR (Extended Detection and Response) ulgamlarynyň birlikte ulanylyşy, maglumat howpsuzlygyny üpjün etmekde möhüm artykmaçlyklar berýär. Bu ulgamlaryň birlikte ulanylyşy, guramalaryň howpsuzlyk goragyny güýçlendirip, hüjümleriň öňüni almakda uly rol oýnaýar. Aşakda bu ulgamlaryň utgaşykly ulanylyşynyň esasy artykmaçlyklary berilýär:
+
+ 1. Gözegçilik we Analiz
+
+- SIEM ulgamy: Tor we ulgamlardaky maglumatlary yzarlap, adatdan daşary hereketleri anyklaýar we duýduryş berýär.
+- XDR ulgamy: SIEM ulgamyndan alnan maglumatlaryň üstünde güýçli analiz we gözegçilik geçirýär, hüjümleriň öňüni almakda köpçülikleýär.
+
+ 2. Hüjüm Tekşirme
+
+- SIEM ulgamy: Hüjümleri anyklaýar we administratorlara duýduryş berýär.
+- XDR ulgamy: Hüjümleriň maglumatlarynyň üstünde köpçülikleýär, hüjümleriň öňüni almakda köpçülikleýär.
+
+ 3. Awtomatik Müdahale
+
+- SIEM ulgamy: Hüjümleri anyklaýar we administratorlara duýduryş berýär, olar şol hüjümleri özüne gözegçilik geçirip, düzedişler girizýärler.
+- XDR ulgamy: Hüjümleriň maglumatlarynyň üstünde awtomatik müdahale edýär, hüjümleriň öňüni almakda köpçülikleýär.
+
+ 4. Maglumatlaryň Birleşdirilmesi
+
+- SIEM ulgamy: Tor we ulgamlardaky maglumatlary birleşdirip, adatdan daşary hereketleri anyklaýar.
+- XDR ulgamy: SIEM ulgamyndan alnan maglumatlaryň üstünde köpçülikleýär, hüjümleriň öňüni almakda köpçülikleýär.
+
+ 5. Gözegçilik we Analiz
+
+- SIEM ulgamy: Tor we ulgamlardaky maglumatlary yzarlap, adatdan daşary hereketleri anyklaýar we duýduryş berýär.
+- XDR ulgamy: SIEM ulgamyndan alnan maglumatlaryň üstünde köpçülikleýär, hüjümleriň öňüni almakda köpçülikleýär.
+
+3)Wireshark-da vpn tunel arkaly geçýän maglumatlaryň gowşaklyklaryny tapmaly
+
+
+
+3 
+1)DNS hijaçking tehnikalarynyň MU-laryna ýetirýän täsiri.
+DNS (Domain Name System) perihlap metodlary maglumat ulgamlaryna (MU) uly täsir edýär. Bu metodlar DNS ulgamyň gowşak ýerlerini ulanyp, bikanun amallar amala aşyrmaga mümkinçilik berýär. Ine, DNS perihlap metodlarynyň maglumat ulgamlaryna edýän täsirleriniň we zyýanlarynyň düşündirilişi:
+
+1. DNS spoofing (Galplaşdyrma)
+Düşündiriş: Bu usulda hüjümçi DNS maglumatlaryny galplaşdyryp, ulanyjyny bikanun ýa-da zyýanly saýt salgysyna ugrukdyrýar.
+Täsiri:
+Ulanyjynyň gizlin maglumatlary (meselem, parollar, bank karty maglumatlary) ele geçirilýär.
+Maglumat ulgamlaryna zyýanly programmalaryň girizilmegi.
+
+2. DNS cache poisoning (Keselledirme)
+Düşündiriş: Hüjümçi DNS serwerleriniň keşiň içine galplaşdyrylan maglumatlary ýerleşdirýär. Ulanyjy dogry domen salgy girizse-de, ol bikanun saýtlara ugrukdyrylýar.
+Täsiri:
+Ulanyjynyň we maglumat ulgamlarynyň howpsuzlygy bozulýar.
+Serweriň bitewiligine we abraýyna zeper ýetirýär.
+
+3. DNS tunneling (Tunellama)
+Düşündiriş: Bu usulda hüjümçi DNS soraglarynyň arasynda gizlin maglumat alyş-çalşyny ýola goýýar.
+Täsiri:
+Maglumat ulgamlaryndan gizlin maglumatlar çykarylýar.
+Ulgamyň zolak elýeterliligi peselýär we köp maglumat akymy sebäpli işine zyýan ýetýär.
+
+4. DNS hijacking (Başarnyk bilen ele geçirme)
+Düşündiriş: Hüjümçi DNS serwerine dolandyryş girip, ony ele alýar ýa-da ulanyjynyň DNS konfigurasiýasyny üýtgedýär.
+Täsiri:
+Ulanyjylar zyýanly salgylara ugrukdyrylýar.
+Maglumat ulgamlaryndaky gizlinlik bozulýar we ulanyjylara hyzmat etmek kynlaşýar.
+
+5. Typosquatting (Ýalňyş ýazgy arkaly ýatlama)
+Düşündiriş: Ulanyjy domen adynda ýalňyş ýazgy girizse, hüjümçi ony ýörite döredilen bikanun saýtlara ugrukdyrýar.
+Täsiri:
+Ulanyjylaryň gizlin maglumatlary ele salynýar.
+Maglumat ulgamlaryna zyýanly maglumatlar ýaýradylýar.
+
+6. DNS amplification attack (Köpelme hüjümi)
+Düşündiriş: Hüjümçi DNS ulgamlaryny ulanyp, köpçülikleýin bikanun soraglary ugradýar we serweriň resurslaryny aşa köp peýdalanýar.
+Täsiri:
+Maglumat ulgamlarynyň elýeterliligi peselýär (DDoS hüjümi).
+Ulgam işden çykyp, hyzmat bermek mümkinçiligini ýitirýär.
+
+7. Maglumatlaryň syzmagy
+Düşündiriş: DNS ulgamy arkaly hakerler maglumat ulgamlarynda bar bolan parollar, konfigurasiýalar ýa-da beýleki gizlin maglumatlar barada maglumat ýygnap bilerler.
+Täsiri:
+Maglumat ulgamlaryndaky gizlinlik we gorag peselýär.
+Hüjümçileriň has uly hüjümleri amala aşyrmagy ýeňilleşýär.
+
+Gorag çäreleri
+DNS perihlap metodlarynyň täsirini azaltmak we maglumat ulgamlaryny goramak üçin aşakdaky çäreler ulanylyp bilner:
+1.DNSSEC (DNS Security Extensions) ulanyň.
+2.DNS serwerleriň konfigurasiýalaryny we täzeliklerini yzygiderli barlaň.
+3.Maglumat ulgamlarynda berk filtrleme we audit işlerini gurnamak.
+4.Firewall we WAF (Web Application Firewall) ulgamlaryny goşmak.
+5.Ulanyjylara şübheli saýtlardan goragly bolmagy öwrediň.
+
+Netije
+DNS perihlap metodlary maglumat ulgamlarynyň goragyny çynlakaý pese düşürip biler. Bu hüjümleriň öňüni almak üçin degişli tehnologiýalary ulanyp we ulgamlaryňyzy yzygiderli auditden geçirmek gerek. Has giňişleýin soraglar ýa-da ýörite maslahatlar üçin ýüz tutup bilersiňiz!
+
+2)MU-larynda ISO-27001-iň ulanylyşy.
+ISO 27001 standartynyň maglumat bazalaryna (DB) ornaşdyrylmagy
+ISO/IEC 27001 standarty maglumat howpsuzlygyny dolandyrmak ulgamyny (ISMS) döretmek we saklamak üçin ulanylýar. Bu standart maglumat bazalarynyň (DB) goragyny üpjün etmek üçin netijeli ýol görkeziji bolup hyzmat edýär. Maglumat bazalary maglumat gorlarynyň iň möhüm bölegi bolansoň, ISO 27001-iň düzgünleriniň ornaşdyrylmagy olaryň howpsuzlygyny ýokarlandyrýar.
+
+1. Başlangyç ädimler: ISO 27001-iň esaslary
+ISO 27001 standartyny maglumat bazalaryna ornaşdyrmak üçin şu çäreleri görmeli:
+Riskleriň seljerilmegi: Maglumat bazasyndaky ähli gowşaklyklar we howplar kesgitlenýär.
+Howpsuzlyk syýasatynyň döredilmegi: Maglumat bazalaryny goramak üçin kompaniýanyň syýasatlary we proseduralary işlenip düzülýär.
+Maksatlaryň bellenilmegi: Maglumat bazasynyň goragyny üpjün etmek üçin anyk we ölçegli maksatlar goýulýar.
+
+2. Maglumat goragynyň esaslary
+ISO 27001 standartynyň düzgünlerine laýyklykda, maglumat bazalarynyň goragy şu üç esasy ýörelgä esaslanýar:
+Gizlinlik (Confidentiality): Maglumatlaryň diňe rugsatly ulanyjylara elýeterli bolmagyny üpjün etmek.
+Bütewiligi (Integrity): Maglumatlaryň üýtgedilmän saklanmagyny we ygtybarlylygyny üpjün etmek.
+Elýeterlilik (Availability): Maglumatlaryň gerekli wagtlarynda ulanyjylara elýeterli bolmagyny üpjün etmek.
+
+3. ISO 27001-i maglumat bazalaryna ornaşdyrmagyň esasy ugurlary
+a) Maglumat bazasynyň täsirli dolandyrylyşy
+Maglumat bazasyndaky ähli maglumatlaryň klassifikasiýasy geçirilýär.
+Her bir maglumat ugry üçin degişli gorag derejesi kesgitlenýär.
+b) Amallaryň goragly bolmagy
+Munuçlar we Parollar: Ulanyjylaryň maglumat bazasyna elýeterlilik derejesi berk dolandyrylýar.
+Şifrleme: Maglumatlar şifrlenýär, şol sanda saklanýan we geçirilýän maglumatlar.
+Audit yzlary: Maglumat bazasynda geçirilen ähli amallar yzarlanyp we bellige alynýar.
+c) Risk dolandyryşy
+Maglumat bazasyndaky mümkinçilikli hüjüm senariýlary analiz edilýär.
+Riskleri azaltmak üçin gorag çäreleri bellenilýär (mangasy, Firewall, WAF ulgamlary we ş.m.).
+d) Çäreleriň plany
+Hadysalaryň ýüze çykmagyna taýýarlyk görmek we olar ýüze çykan halatynda çalt reaksiýa bermek üçin çäreleriň plany düzülýär.
+Maglumatlar ýitirilse, rezewir nusgalaryň ulanylmagyny üpjün etmek.
+
+4. ISO 27001-e laýyklyk proseduralary
+a) Ulgamyň hemmetaraplaýyn seljerilmegi
+ISO 27001-iň düzgünlerine laýyklykda, maglumat bazasyndaky:
+Fiziki gowşaklyklar (serwerleriň gorag derejesi),
+Logiki gowşaklyklar (ulanyjy rugsatnamalary, şifrleme ulgamlary) kesgitlenýär we gowulandyrylýar.
+b) Tälim we habardarlyk
+Maglumat bazasy bilen işleýän toparlara ISO 27001 bilen bagly:
+Maglumat howpsuzlygy proseduralary,
+Kiberhüjümleriň öňüni almak we çalt reaksiýa bermek barada tälimler berilýär.
+c) Yzygiderli audit we gowulandyryş
+Maglumat bazalarynyň goragyna degişli auditler yzygiderli geçirilýär.
+Üýtgäp durýan howplara garşy täze gorag çäreleri ornaşdyrylýar.
+
+5. ISO 27001-iň maglumat bazalaryna getirýän peýdalary
+Howpsuzlygyň ýokarlanmagy: Maglumatlaryň ygtybarlylygyny, gizlinligini we elýeterliligini üpjün edýär.
+Howplaryň azaldylmagy: Hüjümçiler üçin gowşaklyklar peseldilýär.
+Rugsatnamalaryň dolandyrylyşy: Maglumat bazasyna diňe ygtyýarly ulanyjylaryň girmegini kepillendirýär.
+Kanuny laýyklyk: ISO 27001 standartyna laýyk gelmek halkara kanunlara we düzgünlere laýyklykda işleşmegi üpjün edýär.
+
+Netije
+ISO 27001 standartynyň maglumat bazalaryna ornaşdyrylmagy ulgam howpsuzlygyny ýokarlandyrmak we hadysalara garşy taýýarlygy üpjün etmek üçin möhüm ädimdir. Bu standart maglumat ulgamlarynyň kiberhüjümlerden goralmagyny kepillendirýär we işgärleriň jogapkärçiligini artdyrýar. Ornaşdyrylyş boýunça has giňişleýin maglumat ýa-da ýörite maslahat gerek bolsa, habarlaşyň!
+
+3)Wireshark ulanyp DNS protoçolyny seljermeli gowşaklyklary anyklamaly.
+
+
+
+4
+1)DNS over HTTP barada düşünje.
+DNS arkaly HTTP düşünjesi
+DNS (Domain Name System) we HTTP (Hypertext Transfer Protocol) internetiň işleýiş ulgamynda aýratyn, emma biri-biri bilen baglanyşykly iki esasy tehnologiýadyr. DNS arkaly HTTP düşünjesi, ulanyjynyň web brauzerinde URL girizmeginden başlap, şol sahypanyň serwerinden maglumatlaryň getirilip, görkezilmegine çenli amal edilişine esaslanýar.
+
+1. DNS näme we HTTP bilen baglanyşygy?
+DNS: Domen atlaryny (meselem, www.example.com) IP adreslere (meselem, 192.168.1.1) öwürýän ulgam.
+HTTP: Web serweri bilen web brauzeriň arasyndaky maglumat alyş-çalşyny dolandyrýan protokol.
+DNS we HTTP biri-birine bagly işleýär, sebäbi HTTP isleginiň ýerine ýetirilmegi üçin DNS domen adyny IP adresine öwürmeli bolýar.
+
+2. DNS arkaly HTTP nädip işleýär?
+a) Brauzeriň islegi
+Ulanyjy brauzerde bir domen (URL) girizýär, meselem, www.example.com.
+Brauzer ilki bilen şu etaplary amala aşyrýar:
+1.DNS ulgamyna ýüz tutup, girizilen domeniň IP adresini soraýar.
+2.DNS serweri IP adresini tapýar we brauzere gaýdyp berýär.
+b) HTTP baglanyşygy
+Brauzer DNS arkaly alnan IP adresini ulanyp, web serwere HTTP arkaly isleg (request) ugrukdyrýar.
+Mysal: Brauzer GET /index.html HTTP/1.1 ýaly islegi serwere iberýär.
+c) Serweriň jogaby
+Serwer HTTP islegini kabul edýär we ulanyja degişli jogaby berýär.
+Mysal: 200 OK statusy bilen birlikde, sahypanyň HTML mazmuny.
+d) Web sahypanyň görkezilmegi
+Brauzer serwerden gelen HTML, CSS, we JavaScript faýllaryny işläp, sahypany görkezýär.
+
+3. DNS arkaly HTTP işiniň ösüşi
+a) DoH (DNS over HTTPS)
+DoH ulgamy DNS soraglarynyň we jogaplarynyň HTTP ýa-da HTTPS arkaly geçirilmegini üpjün edýär. Bu, DNS maglumatlarynyň şifrlenmegini üpjün edip, has howpsuz ulanmagy döredýär.
+Üstünligi: Ulanyjynyň DNS soraglaryny yzarlamak kynlaşýar.
+Ulanylyşy: Web brauzerleri we programma üpjünçilikleri tarapyndan giňden kabul edilýär.
+b) DoT (DNS over TLS)
+DoT ulgamy DNS maglumatlaryny TLS (Transport Layer Security) arkaly şifrleýär. Bu hem ulanyjynyň gizlinligini goramakda möhümdir.
+
+4. DNS arkaly HTTP-ä düşünmegiň möhüm taraplary
+1.Baglanşyk wagty
+oDNS çözgüdi (domeniň IP adresiniň tapylmagy) HTTP baglanyşygynyň başlanmagyna sebäp bolýar.
+oDNS çözgüdi haýal bolsa, web sahypanyň ýükleniş wagty uzalýar.
+2.DNS maglumatlarynyň goragy
+oAdaty DNS çözgütleri şifrlenmedik bolany üçin, maglumatlar hakerler tarapyndan ele salnyp bilner.
+oDoH we DoT ulanyjy gizlinligini has gowy goramaga mümkinçilik berýär.
+3.HTTP-iň güýji
+oHTTP arkaly DNS soraglary we jogaplary geçireniňde, maglumatlar diňe domen adynyň çözgüdi bilen çäklenmän, şol bir wagtda maglumat alyş-çalşynyň hem goragly bolmagyny üpjün edýär.
+
+5. DNS we HTTP ulgamyndaky kynçylyklar
+1.Man-in-the-Middle hüjümleri
+oDNS soraglaryny yzarlamak arkaly hüjümçiler ulanyjyny bikanun saýtlara ugrukdyryp biler.
+oDoH we DoT bilen bu gowşaklyklar azaldylýar.
+2.HTTP arkaly DNS-in tizligi
+oŞifrleme we howpsuzlyk çäreleri iş wagtyny artdyryp biler. Emma bu howpsuzlygyň ösüşi üçin zerurdyr.
+3.Şifrlemesi bolmadyk DNS çözgüdi
+oAdaty DNS çözgütleri HTTP islegleriniň howpsuzlygyny peseldip biler, sebäbi ulanyjynyň IP adresi açyk bolýar.
+
+Netije
+DNS we HTTP ulgamlary biri-birini tamamlaýar we bilelikde ulanyjylar üçin internetiň esasy elementini üpjün edýär. DNS-iň IP adres çözgüdi we HTTP-niň maglumat alyş-çalşy, ulanyjylaryň web sahypalara girmegini üpjün edýär. DoH we DoT ýaly täze tehnologiýalar bu ulgamlaryň goragyny hasam ýokarlandyrýar.
+Bu temada goşmaça soraglaryňyz ýa-da tehniki maglumat isleseňiz, habardar ediň!
+
+2)MH-lygyny üpjün etmekde AI-yň ähmiýeti we orny.
+Maglumat howpsuzlygynda emeli intellektiň (AI) ähmiýeti we orny
+Maglumat howpsuzlygy häzirki wagtda sanly dünýäniň iň möhüm meseleleriniň biri bolup durýar. Emeli intellekt (AI) maglumat howpsuzlygyny üpjün etmekde, kiberhüjümleriň öňüni almakda we olara garşy göreşmekde möhüm rol oýnaýar. AI tehnologiýalarynyň çalt ösmegi bilen, maglumat ulgamlaryndaky gowşaklyklary has çalt tapmak we olaryň öňüni almak mümkinçiligi ýokarlanýar.
+
+1. AI-iň maglumat howpsuzlygyndaky esasy wezipeleri
+a) Howplary tapmak we analiz etmek
+AI ulgamlary sanly ulgamlarda yzygiderli maglumat akymyny seljerýär we şübheli hereketleri anyklaýar.
+Şeýle seljerme arkaly, gowşaklyklar we haker hüjümleri öňünden kesgitlenýär.
+Mysal: Zyýanly programmalary tanamak üçin maşyn öwreniş algoritmleri ulanylýar.
+b) Awtomatlaşdyrylan gorag
+AI ulgamlary howplara awtomatiki reaksiýa berýär. Bu, hüjümleriň irki etaplarynda olaryň täsiriniň peseldilmegine kömek edýär.
+Mysal: Firewallyň AI bilen birleşdirilmegi, nätanyş IP adreslerinden gelýän bikanun soraglary blokirlemäge mümkinçilik berýär.
+c) Maglumatlaryň dogrulygyny goramak
+AI algoritmleri maglumatlaryň bütewiligini goramak üçin analiz we yzygiderli barlag geçirýär.
+Hüjüm synanyşyklary ýüze çykarylanda, degişli çäreler dessine amala aşyrylýar.
+d) Kiberhadysalaryň öňüni almak
+AI geçmiş maglumatlary we hereket nusgalaryny analiz edip, geljekde bolup biljek howplary çaklap biler.
+Hüjümçilere garşy täsirli çäre görmek üçin strategiýa işlenip düzülýär.
+
+2. AI-iň ulanylyş ugurlary
+a) Intruziýa kesgitleýiş ulgamlary (IDS)
+AI ulgamlary näbelli we şübheli intruziýa synanyşyklaryny çalt anyklamakda kömek edýär.
+Mysal: Zyýanly tor hereketlerini anyklamak üçin NLP (Natural Language Processing) ulanylýar.
+b) Zyýanly programma üpjünçiliklerine garşy gorag
+AI zyýanly programmalary tapmak üçin olaryň kodyndaky nusgalary analiz edýär.
+Adaty we täze görnüşli zyýanly programmalary kesgitlemekde AI çalt we takyk işlemäge mümkinçilik berýär.
+c) Botnetleriň dolandyrylmagy
+AI botnet hereketlerini analiz edip, olaryň ulgamlara edýän täsirini peseldýär.
+Hüjümçileriň serwerlerine garşy garşylyk görkezmek üçin çalt reaksiýa bermek mümkin bolýar.
+d) Awtonom kiberhowpsuzlyk ulgamlary
+AI awtonom ulgamlary işledip, haker hüjümlerine garşy durmak üçin karar kabul edýär.
+Bu ulgamlarda operatorlaryň gatnaşmagy minimum derejesinde bolýar.
+
+3. AI-iň maglumat howpsuzlygyndaky artykmaçlyklary
+1.Tizlik we takyklyk
+oAI uly göwrümli maglumatlary çalt analiz edip, gysga wagtda takyk netijeler çykaryp biler.
+2.Awtomatlaşdyryş
+oAI ulgamlary kiberhüjümleriň öňüni almak we olara reaksiýa bermek işlerini awtomatiki usulda amala aşyrýar.
+3.Ulgamyň öwrenmek ukyby
+oAI maşyn öwreniş (machine learning) arkaly täze howplara çalt uýgunlaşýar we gorag strategiýalaryny kämilleşdirýär.
+4.Ýokary netijelilik
+oAdaty usullar bilen anyklanyp bilinmejek gowşaklyklary ýüze çykarmaga mümkinçilik berýär.
+
+4. AI-iň kynçylyklary we çäklendirmeleri
+1.Hataly pozitiwler
+oAI ulgamlary käwagt şübheli däl hereketleri howply diýip kesgitläp biler. Bu bolsa maglumat howpsuzlygy işgärleriniň üstüne goşmaça ýük düşürýär.
+2.Hakerler tarapyndan ulanylmagy
+oHüjümçiler hem AI tehnologiýalaryny ulanyp, gorag ulgamlaryny geçmek üçin täze strategiýalar işläp bilerler.
+3.Maddy çykdajylar
+oAI tehnologiýalaryny ornaşdyrmak we işlemek üçin uly maliýe serişdeleri gerek bolýar.
+4.Maglumatlaryň gizlinligi
+oAI ulgamlary üçin ýygnalýan maglumatlar, gizlinlik we kanuny laýyklyk meselelerini döredip biler.
+
+5. Gelejekde AI-iň orny
+AI tehnologiýalarynyň ösmegi bilen maglumat howpsuzlygy ulgamlary has çylşyrymly we täsirli bolar.
+Zero Trust Security strategiýasy ýaly konsepsiýalarda AI ulgamlarynyň möhüm orny bolar.
+Kiberhadysalaryň öňüni almak we derňemek işlerinde AI has giňden ulanylar.
+
+Netije
+Maglumat howpsuzlygynda AI, gowşaklyklary çalt anyklamak we hüjümleriň täsirini peseltmek üçin möhüm gurallaryň biri bolup durýar. Awtonom işlemek ukyby we uly maglumatlar bilen işleşmek mümkinçiligi arkaly, AI maglumat ulgamlarynyň howpsuzlygyny ýokarlandyrmakda möhüm orny eýeleýär. AI-iň dogry we täsirli ulanylmagy kiberhowpsuzlyk ulgamyndaky çylşyrymly meseleleriň köpüsini çözmäge kömek eder.
+
+3)Shodan.io IoT gowşaklyklaryny tapyp peýdalanmak(kamera açmaly).
+
+5
+1)SSH protokolynyň algoritmleri we usullary.
+SSH protokolynyň algoritmleri we usullary
+SSH (Secure Shell) protokoly tor arkaly maglumatlary ygtybarly geçirmek üçin ulanylýar. Ol maglumatlary şifrlemek, ygtyýarnamany tassyklamak we maglumatlaryň bütewiligini üpjün etmek üçin dürli algoritmleri we usullary ulanýar. SSH protokoly esasan tor howpsuzlygyny üpjün etmekde, uzakdan serwere girmekde we maglumat alyş-çalşygynda ulanylýar.
+
+1. SSH protokolynyň esasy häsiýetleri
+Şifrleme: SSH protokoly ähli maglumat akymyny şifrlemek arkaly ygtybarly baglanyşygy döredýär.
+Tassyklaýyş (Authentication): Ulanyjy we serwer şahsyýetini tassyklamak üçin dürli usullary ulanýar.
+Maglumatlaryň bütewiligini üpjün etmek: SSH protokoly maglumatlaryň üýtgedilmän saklanmagyny kepillendirýär.
+
+2. SSH protokolynyň esasy tapgyrlary
+a) Tassyklaýyş we açar alyşmasy
+SSH baglanyşygy iki esasy bölege bölünýär:
+Tassyklaýyş (Authentication): Ulanyjy şahsyýetini tassyklamak üçin ulanylýar.
+Açar alyşmasy (Key Exchange): Tor baglanyşygy üçin bilelikde ulanylýan simmetrik açar döretmek üçin amala aşyrylýar.
+b) Maglumat akymynyň şifrlenmegi
+Baglanyşyk döredilenden soň, SSH ähli maglumatlary şifrlemek arkaly geçirýär.
+Bu amalda simmetrik şifrleme we şifrlenmegiň integrasiýasy ulanylýar.
+
+3. SSH protokolynda ulanylýan algoritmler
+a) Açar alyşmasy algoritmleri
+SSH protokoly açar alyşmasynda iki tarapyň bilelikde ulanjak simmetrik açaryny döretmek üçin asimmetrik şifrleme ulanýar.
+Diffie-Hellman: Iki tarapyň bilelikde şifrleme açaryny döretmegini üpjün edýär.
+Elliptik egri Diffie-Hellman (ECDH): Diffie-Hellman usulynyň has netijeli we çalt görnüşidir.
+b) Şifrleme algoritmleri
+SSH, maglumat akymyny şifrlemek üçin simmetrik şifrleme algoritmlerini ulanýar:
+AES (Advanced Encryption Standard): SSH protokolynyň iň giňden ulanylýan şifrleme algoritmi.
+ChaCha20-Poly1305: Has ýeňil we çalt şifrleme algoritmi bolup, esasan mobil enjamlar üçin ulanylýar.
+3DES (Triple DES): Täze algoritmler bilen çalşyrylýan köne, emma howpsuz şifrleme usuly.
+c) Tassyklaýyş algoritmleri
+SSH ulanyjynyň we serweriň şahsyýetini tassyklamak üçin hashing algoritmlerini ulanýar:
+RSA (Rivest-Shamir-Adleman): Asimmetrik açar esasly tassyklaýyş usuly.
+DSA (Digital Signature Algorithm): Maglumatlary tassyklamak we olary yzarlamak üçin ulanylýar.
+ECDSA (Elliptic Curve Digital Signature Algorithm): DSA usulynyň has çalt we ygtybarly görnüşi.
+d) Hashing algoritmleri
+SSH protokoly maglumatlaryň bütewiligini üpjün etmek üçin hashing algoritmlerini ulanýar:
+SHA-2 (Secure Hash Algorithm 2): Hashing algoritmleriniň häzirki zaman we giňden ulanylýan görnüşi.
+MD5 (Message Digest 5): Köne hashing algoritmi, emma käbir ulgamlarda henizem ulanylýar.
+
+4. SSH protokolynyň usullary
+a) Parol bilen tassyklaýyş
+Ulanyjy adyny we parolyny ulanyp, serwere girýär. Bu usul has az howpsuz bolup, güýçli parollaryň ulanylmagy maslahat berilýär.
+b) Açar bilen tassyklaýyş
+SSH public/private açar ulgamyny ulanyp, ygtyýarnamany üpjün edýär.
+Public açar: Serwere ýüklener.
+Private açar: Ulanyjynyň enjamynda gizlin saklanar.
+Bu usul parol bilen tassyklaýyşdan has ygtybarlydyr.
+c) Şifrlenýän tunel
+SSH, dürli protokollary (meselem, HTTP, FTP) şifrlemek üçin tunel döretmekde ulanylýar. Bu usul maglumatlary geçirmegiň goraglylygyny ýokarlandyrýar.
+d) Port öňe geçiriş (Port Forwarding)
+SSH, ýerli ýa-da uzakdaky portlary şifrlenýän tunel arkaly baglanyşdyrmaga mümkinçilik berýär. Bu usul esasan maglumatlara bikanun girmekden goramak üçin ulanylýar.
+
+5. SSH protokolynyň artykmaçlyklary
+1.Howpsuzlyk
+oSimmetrik we asimmetrik şifrlemeleriň ulanylmagy ulgamyň goraglylygyny üpjün edýär.
+2.Çaltlyk
+oHäzirki zaman algoritmleri maglumat alyş-çalşygy çalt we netijeli edýär.
+3.Uly göwrümli ulanylmagy
+oSSH uzakdaky serwerlere howpsuz girmegi üpjün edýär.
+4.Goragly tuneller
+oSSH tunelleri maglumatlary bikanun girmekden we ele salmakdan gorap biler.
+
+6. SSH protokolynyň çäklendirmeleri
+1.Tassyklaýyş usullarynyň gowşaklygy
+oParol bilen tassyklaýyş usuly güýçli goragsyz ulgamlarda howp döredip biler.
+2.Goragyň nädogry sazlamalary
+oSSH konfigurasiýasynyň nädogry edilmegi ulgam gowşaklygyny artdyryp biler.
+3.Düýpli bilim zerurlygy
+oSSH-y netijeli we ygtybarly ulanmak üçin tehniki bilim gerek bolýar.
+
+Netije
+SSH protokoly häzirki zaman maglumat howpsuzlygynyň möhüm gurallarynyň biridir. Şifrleme, açar alyşmasy we goragly tuneller arkaly, SSH maglumat alyş-çalşygynda ýokary howpsuzlygy üpjün edýär. Simmetrik we asimmetrik algoritmleriň ulanylmagy SSH-yň netijeliligini we ygtybarlylygyny ýokarlandyrýar. Şeýle-de bolsa, SSH-yň dogry we howpsuz sazlamagy onuň mümkinçiliklerini doly ulanmaga mümkinçilik berýär.
+
+2)Exploit tehnologiýalarynyň aýratynlyklary.
+Eksploit tehnologiýalarynyň häsiýetleri
+Eksploitler (eksploitler) - bu howpsuzlyk gowşaklyklaryny (gowşaklyklaryny) ulanmak we olary bikanun maksatlar üçin peýdalanyp, ulgamlara we torlara girmegi üpjün etmek üçin ulanylýan programmalar ýa-da kodlardyr. Eksploit tehnologiýalary, kiberhüjümleriň we zyýanly programmalaryň işleşmegi üçin esasy gurallar bolup durýar.
+Eksploitleriň nädip işläp başlamagy, olaryň täsirini we ulanylyşyny düşünmek, maglumat howpsuzlygyny goramak üçin möhüm. Eksploitleriň tehnologiýalaryny we olaryň häsiýetlerini düşünmek, howplaryň öňüni almakda we howpsuzlygy ýokarlandyrmakda möhüm rol oýnaýar.
+
+1. Eksploitleriň görnüşleri
+Eksploitler dürli görnüşlerde bolup biler, her biriniň ulanyş maksady we täsiri başgaça bolýar. Aşakda iň giňden ulanylýan eksploit görnüşleri görkezilendir:
+a) Boşluk (Buffer Overflow) eksploitleri
+Bu eksploitler, programmanyň belleýinde arakesmeleriň artykmaç we ýerliksiz ýazgylaryndan peýdalanýar.
+Häsiýetleri: Ulgamyň işini kesmek ýa-da serwera ýerine ýetirilmeli kody ýerleşdirmek üçin peýdalanylýar.
+Gürrüň edýän parametrler: Çäkli belleğe geçiş, belligi ýalňyş hatar (misalignment) we maglumatlaryň daşyna çykmak.
+b) SQL inýeksiýalary (SQL Injection)
+SQL inýeksiýalary, şifrlenmedik SQL soraglarynyň ýalňyş işlänindäki gowşaklyklar arkaly, maglumat bazasyna bikanun girmäge mümkinçilik berýär.
+Häsiýetleri: Ulanyjynyň SQL soraglaryna kod goşup, maglumat bazasynyň işini üýtgetmek, goşmaça maglumat almak ýa-da maglumatlary öçürmek mümkinçiligi döredilýär.
+Ulanyş maksady: Maglumatlary almak ýa-da serweriň işini bozmak.
+c) XSS (Cross-Site Scripting) eksploitleri
+Bu eksploitler web sahypalaryndaky gowşaklyklary peýdalanyp, ulanyjynyň brauzerinde zäherli skriptleri ýerine ýetirmäge mümkinçilik berýär.
+Häsiýetleri: Zyýanly skriptler HTML kodynda ýerleşdirilip, ulanyjynyň maglumatlaryny alýar ýa-da web sahypasynyň işini bozýar.
+Ulanyş maksady: Kiberhüjümçä maglumatlary almak (meselem, parollar) ýa-da bikanun işleýän web sahypalaryny döretmek.
+d) Arka gapy (Backdoor) eksploitleri
+Bu eksploitler, maglumatlara bikanun girmäge we serweri özbaşdak dolandyrmaga mümkinçilik berýär.
+Häsiýetleri: Arka gapy ulanyjynyň maglumatlary bilen gizlinlikde işleýär, dolandyryjyga toruň degişli bölümlerine doly girmäge mümkinçilik berýär.
+Ulanyş maksady: Sistemiň we serweriň dolandyryşyny almak, şifrlenen maglumatlara girmek.
+e) Ulgam gowşaklyk eksploitleri
+Ulgamlarda, operasiýa ulgamynda ýa-da beýleki programmada degişli gowşaklyklary ulanmak.
+Häsiýetleri: Sistemiň ýa-da toruň dolandyrmak ulgamynyň gowşaklygynyň peýdalanylmagy, şeýlelik bilen dolandyryş ulgamlaryna ýa-da ähli ulgama girmek.
+Ulanyş maksady: Operasiýa ulgamynyň ygtyýarnamasyndan peýdalanyp, serweriň dolandyrmasyna girmek.
+
+2. Eksploitleriň ulanylyş maksatlary
+Eksploitleriň ulanylyş maksady dürli we köp tarapy bilen şertlenendir. Olaryň esasy ulanylyş maksatlary şulardyr:
+a) Maglumatlaryň ele geçirilmegi
+Eksploitler, şifrlenmedik maglumatlary almak, ulanyjylaryň parollaryny, bank hasaplaryny ýa-da gizlin maglumatlaryny ele geçirmek üçin ulanylýar.
+Mysal: SQL inýeksiýalary we XSS, web sahypalarynyň içindäki maglumatlary almakda ulanylyp biler.
+b) Serwerleriň dolandyrylmagy
+Eksploitler, serwerleriň we torlaryň dolandyryşyny almak üçin bikanun girmäge mümkinçilik berýär. Bu, zerur resurslary we maglumatlary dolandyrmaga mümkinçilik berýär.
+Mysal: Arka gapy eksploitleri serweri dolandyrmak üçin ulanylyp biler.
+c) Tor döredilmegi (Botnetler)
+Botnetler, ulanyjylaryň we serwerleriň täsirini çalt gowşatmak üçin eksploitleriň ulanylmagyna mümkinçilik berýär.
+Mysal: Botnetler, dürli gowşaklyklary ulanmak arkaly dürli ulgamlara girmek we goşmaça kompromissiýa eden enjamlary toplamak üçin döredilýär.
+d) Sistemiň işini bozmak
+Eksploitler, dürli ulgamlaryň işini bozmaga, çäkli ýagdaýlarda düýpli ýalňyşlyklara sebäp bolmaga mümkinçilik berýär.
+Mysal: Boşluk eksploitleri belleginiň gowşaklygynyň peýdalanylmagy, maglumatlaryň ýitmegi ýa-da koduň bikanun ýerine ýetirilmegi üçin ulanylyp biler.
+
+3. Eksploitleriň üstünlikli işlemek ukyby
+Eksploitleriň işlemek ukyby, olaryň nädip we näme sebäpli üstünlikli bolup biljekdigini düşündirýär. Bu, nädip howp dörederini, olaryň nädip öňünden kesgitlenip, öňüni alnyp boljakdygyny görkezýär.
+a) Gowşaklyk ýerleşýän ýer
+Eksploitler gowşaklyk bolan ulgam ýa-da programma saýlamak bilen işleýär. Şol gowşaklyk, şifrlenmedik maglumatlar ýa-da bikanun giriş üçin açyk gapy bolup biler.
+b) Eksploitiniň täsiri
+Eksploitlaryň täsiri, olaryň ulanylyş görnüşine we gowşaklygyň ýagdaýyna baglydyr. Täsiri has güýçli bolan eksploitler has uly ziyanın we kiberhüjümleriň öňüni almak üçin has çylşyrymly görnüşdedir.
+c) Dürli serişdelerden peýdalanmak
+Eksploitler dürli serişdelerden peýdalanmagy dowam etdirýär. Meselem, ulanyjylaryň parollary ýa-da administratorlaryň şifrlemeleri ýaly maglumatlar, eksploitleriň işine täsir edýän faktorlardyr.
+
+4. Eksploitleriň öňüni almak
+Eksploitleriň öňüni almak we howplara garşy durmak üçin birnäçe usul bar:
+Gowşaklyk barlagy: Ulgamlarda we programma üpjünçiliklerinde gowşaklyklaryň yzarlanmagy we olaryň aradan alynmagy.
+Maglumat şifrlemesi: Ygtybarly şifrleme usullary bilen maglumatlary goramak, goşmaça gorag gurallaryny ulanmak.
+Täze gowşaklyklara yzarlaýyş: Kiber howplary we eksploitleriň täze görnüşlerine degişlilikde yzygiderli täzelenmeler we öndewermeler.
+
+Netije
+Eksploitler, kiberhowpsuzlykda möhüm we ýokary howply mesele bolup, dürli gowşaklyklary ulanmak arkaly serwerlere, ulgamlara we maglumatlara bikanun girmäge mümkinçilik berýär. Eksploitleriň tehnologiýalary dürli usullar we algoritmler arkaly işledilýär, olaryň öňüni almak üçin degişli howpsuzlyk çäreleri we testler zerurdyr. Maglumatlaryň goragy we torlaryň howpsuzlygy üçin eksploitlere garşy çydamlylyk we öňüni alyş çäreleri her zaman möhüm bolup galýar.
+
+3)RAR faýlyň parolyny döwmeli. (LostMyPass programma).
+
+6
+1)Pentesting arkaly ýüze çykaryp bolmaýan gowşaklyklary ýüze çykarmakda ulanylýan gurallar we çäklendirmeler(ZeroDay, Revers Enginering).
+Uýgunlyklaryň we çäklendirmeleriň gurallary: ZeroDay we Reverse Engineering arkaly tapylmaýan gowşaklyklary anyklamak üçin
+Gowşaklyklary anyklamak we ulgamlaryň howpsuzlygyny üpjün etmek kiberhowpsuzlygyň möhüm elementidir. Şeýle-de bolsa, ZeroDay gowşaklyklary we Reverse Engineering arkaly tapylmaýan gowşaklyklar ýaly howplar, pýentest (pen-testing) prosessinde açylmaýar. Şeýle ýagdaýlar üçin aýratyn gural we usullar ulanylýar. Bu ýerde ZeroDay gowşaklyklary we Reverse Engineering arkaly tapylmaýan gowşaklyklary tapmak üçin ulanylýan gurallar we çäklendirmeler barada gürrüň edilýär.
+
+1. ZeroDay gowşaklyklary
+ZeroDay gowşaklyklary - bu howpsuzlyk gowşaklyklary, programmanyň ýa-da ulgamyň ýa-da cihazyň işläp başlan güni ýaly täze gowşaklyklarydyr. Bu gowşaklyklar esasan hatar ýa-da ýagdaýa degişli kodlaryň belligini hiç hili işjeň maglumat bermän, tapylmaýarlar. ZeroDay gowşaklyklary üçin tapylýan gurallar:
+a) Statiw analizatorlary
+Wireshark: Tor üsti bilen geçýän tizlikleriň ýa-da maglumat paketleriniň hataryna garanmak, ýa-da degişli kölegelerde şifrlenmedik maglumatlary tapmak üçin ulanylyp bilner.
+Burp Suite: Web-sahypalarynyň gowşaklyklaryny tapmak üçin ulanylýan guraldyr, bu gural HTTP we HTTPS aragatnaşyklaryny analizleýär.
+Nessus: Network we programmanyň gowşaklyklaryny anyklamak üçin zerur ähli barlaglar arkaly iş alyp barýar.
+b) Hüjüm meýilnamalary (Exploit kits)
+Metasploit: ZeroDay gowşaklyklaryny tapmaga we olaryň eksploitlerini döredmäge mümkinçilik berýän iň meşhur gurallaryň biridir. Bu gural, dürli gowşaklyklara baglanşykly eksploitleri öz içine alýar.
+Core Impact: ZeroDay gowşaklyklaryny ýa-da täze we işlenmedik gowşaklyklary tapmakda giňden ulanylýar.
+c) Sandyk testleri (Sandbox Testing)
+Cuckoo Sandbox: Kiberhüjümçi programma üpjünçiligini we goragy yzarlamak üçin sandyk testlerini ulanýar. Bu gural, gowşaklyklar ýa-da bikanun hereketler barada maglumat almak üçin ähli programma üpjünçiliklerini we kodlary izolýasiýa edýändiginden täze ZeroDay gowşaklyklaryny tapmaga kömek eder.
+d) Kodyň tassyklanylmagy (Code Auditing)
+Checkmarx: ZeroDay gowşaklyklaryny tapmak üçin kodyň hatar taýdan gözden geçirilmegine mümkinçilik berýär. Bu gural, kodyň işiniň howpsuzlygyny çylşyrymlaşdyryp, gowşaklygy tapar.
+e) Halkyň öňüni alyş we test strategiýalary
+ZeroDay gowşaklyklary tapmak üçin möhüm usul halkyň yzygiderli netijeliligini we elýeterliligini ýokarlandyrmakdyr. Güýçli kiberhowpsuzlyk protokollaryny ulanyp, ZeroDay gowşaklyklarynyň we bikanun hereketleriň öňüni almak üçin howpsuzlyk gurallary (firewall, IDS/IPS) goşulyp bilner.
+
+2. Reverse Engineering
+Reverse Engineering - bu programmanyň işiniň ýa-da kodyň içindäki çylşyrymlyklaryny we gowşaklyklaryny analiz etmek üçin ulanylýan prosessdir. Bu usul arkaly programmanyň kodyny anyklamak, gowşaklyk, gyrymdan bikanun peýdalanylýan kody tapmak mümkindir.
+a) Statiki analiz
+Statiki analiz, kody analizläp we onuň gurluşyny öwrenmek arkaly gowşaklyklary tapmaga mümkinçilik berýär. Şeýle analiz üçin aşakdaky gurallar ulanylýar:
+IDA Pro: Kodyň işini we ýalňyşlygyny öwrenmek üçin ulanylan gurallaryň biridir. Bu gural, kody açyp, onun içki gurluşyny we işiniň özi boýunça analizini geçirýär.
+Ghidra: Reverse Engineering üçin açyk çeşmeli gural bolup, esasan maglumatlary we kodlary analizläp gowşaklyklary tapmak üçin ulanylýar.
+b) Dinamik analiz
+Dinamik analiz, programma ýa-da kodyň işläp duran wagtynda gözegçilik etmek arkaly gowşaklyklary tapmaga kömek edýär.
+OllyDbg: Dinamik analiz üçin ulanylýan debugger bolup, programma kodunyň işini ýadynda saklap, gowşaklyklary tapmaga kömek edýär.
+WinDbg: Microsoft tarapyndan işlenip düzülen debugger bolup, ýalňyşlyklar we gowşaklyklar baradaky maglumatlary tapyp biler.
+c) Hyzmat interfeýsi (API) we binar kod analizleri
+Radare2: Bu gural API'ler we binar kody analiz etmek üçin döredilen we gowşaklyk analizi üçin giňden ulanylýan açyk çeşmeli guraldyr.
+d) Kod ýalňyşlyklary we zäherli funksiýalar
+Reverse Engineering netijesinde, zäherli funksiýalar ýa-da hatalar tapylýar. Şeýle funksiýalar programmalarda ýalňyşlyklar ýa-da gowşaklyklar bolup biler. Şolary tapyp, onlardan peýdalanyp bolýan kömekler:
+Fuzzing: Kod üznüksiz ýagdaýda täzelenip, gowşaklyklary tapmaga kömek edýär.
+
+3. Çäklendirmeler
+a) Ygtyýarsyz maglumatlar
+ZeroDay gowşaklyklary we Reverse Engineering arkaly tapylmaýan gowşaklyklary we täsirleri anyklamakda, ulgamlara degişli ygtyýarsyz we gizlin maglumatlar tapylmaýar. Şeýle maglumatlar köplenç gural ýa-da test usullary arkaly açylmaýar.
+b) Wagtyň çäklendirmesi
+ZeroDay gowşaklyklary, programmalar ýa-da ulgamlara täsir edýän gowşaklyklar esasan tiz suratly üýtgäp bilýän ýagdaýdadır. Testler we gural almak, gowşaklygy tapmaga diňe wagtlaýyn mümkinçilik berýär.
+c) Geçirilen testleriň netijeliligi
+Pýentest (pen-testing) we beýleki analitik testleriň netijeliligi, gowşaklygyň ýeke-täk bolmagy bilen çäkli bolup biler. ZeroDay gowşaklyklary we Reverse Engineering arkaly tapylmaýan gowşaklyklary tapmak üçin iň täze we iň çylşyrymly analiz guraly gerek.
+
+Netije
+ZeroDay gowşaklyklary we Reverse Engineering arkaly tapylmaýan gowşaklyklary tapmak üçin ýörite gural we usullar ulanylýar. Bu gurallar, ulgam we programma üpjünçiliginiň täsiri bilen gowşaklyklary anyklamaga, olaryň öňüni almak we howpsuzlygy ýokarlandyrmak üçin kömek edýär. Şeýle-de bolsa, bu testler we analizler çäklendirilen döwürde we käbir ýagdaýlarda täsirli bolup biler. Ygtybarly we täzelenýän gurallaryň ulanylmagy bu gowşaklyklaryň öňüni almakda we anyklamakda möhüm rol oýnaýar.
+
+2)CVSS-v3 mümkinçilikleri, derejeleri, görnüşleri.
+CVSS v3: Ähtimallylyklar, Derejeler we Tiplere Gözden Geçiriş
+CVSS v3 (Common Vulnerability Scoring System version 3), ulgamlardaky gowşaklyklary bahalandyrmak we olaryň howplaryny kesgitlemek üçin ulanylýan halkara standartlaşdyrylan usuldyr. CVSS v3, gowşaklygyň täsirini we howplarynyň derejesini has takyk we doly görkezmek üçin birikdirilen dürli kategoriýalaryň birnäçesini hödürleýär. Bu usul, gowşaklyklary kesgitlemek, olaryň howplaryny we tizliklerini düşünmek üçin giňden ulanylýar.
+
+1. CVSS v3: Ähtimallylyklar
+CVSS v3, gowşaklygyň täsirini we howplaryny bahalandyrmak üçin birnäçe esasy ähtimallyk we bahalandyrmak elementlerine bölünýär. Bu ähtimallyklar ulanyjy we programmalar tarapyndan birnäçe gorag çärelerini kabul etmekde kömek edýär.
+a) Base Score (Esasy baha)
+Base Score gowşaklygyň täsirini we howplarynyň derejesini görkezýär. Bu, gowşaklygyň aňsatlyk bilen ýerine ýetirilmändigini, howplarynyň tizligini, görnüşini we täsirini anyk görkezýär. Base Score 0 dan 10-a çenli bolan bir san bilen kesgitlenýär.
+b) Temporal Score (Wagtlaýyn baha)
+Temporal Score gowşaklygyň wagty bilen üýtgemegini we onuň täsirini görkezýär. Bu, gowşaklygyň ýatgyrma ýagdaýyna ýa-da gowşaklygyň ýagdaýyna görä üýtgäp biler. Şeýle hem, gowşaklygyň ýüze çykarylan wagty we öňüni alyş çäreleriniň orny bu baha täsir edýär.
+c) Environmental Score (Çevre baha)
+Environmental Score gowşaklygyň täsiri ýa-da howplarynyň aýratyn şertler bilen gatnaşygy hakda maglumat berýär. Çevre baha, ulgamlara we torlara täsir etmegi we howpsuzlyk çäreleriniň netijeliligini kesgitleýär.
+
+2. CVSS v3: Derejeler
+CVSS v3-ün derejeleri, gowşaklyklary we olaryň howplaryny kesgitlemek üçin birnäçe bölüme we kategoriýalara bölen takyk ölçeglerdir.
+a) None (0.0-3.9)
+Bahalandyrmak: Bu dereje gowşaklyklar üçin iň pes derejedir. Bu, howply gowşaklyklar däl-de, az täsir edýän ýa-da hiç hili täsiri bolmadyk gowşaklyklary görkezýär.
+b) Low (4.0-5.9)
+Bahalandyrmak: Bu dereje gowşaklygyň az täsir edýändigini ýa-da howply däldigini görkezýär. Şeýle gowşaklyklar tiz we ýeňil ulanylmadyk ýagdaýda, howp döredip bilýändir.
+c) Medium (6.0-7.9)
+Bahalandyrmak: Bu dereje gowşaklygyň orta derejede howplydygyny, has köp gorag çäreleriniň gerekdigini görkezýär.
+d) High (8.0-9.9)
+Bahalandyrmak: Bu dereje gowşaklygyň möhüm howplara ýa-da zyýanly täsir edýändigini görkezýär. Ulgamlar üçin çylşyrymly gorag çäreleri we howpsuzlyk takyk arakesmeleri gerek bolup biler.
+e) Critical (10.0)
+Bahalandyrmak: Bu, iň ýokary howplary we täsiri görkezýär. Gowşaklyklar tiz we ýerliksiz ulanylmadyk ýagdaýda uly zyýan getirmek mümkin.
+
+3. CVSS v3: Tiplere Bölünmeginiň Düzgünleri
+CVSS v3, gowşaklyklary analiz etmek üçin birnäçe esasy kategoriýada (tipde) bahalandyrýar. Bu, gowşaklygyň ulanylmaly gatnaşyklara we täsirlere görä dürli kategoriýalaryň netijelerine esaslanýar.
+a) Ataşment (Attack Vector)
+Atak wekiliniň (Atak Vector) ölçeginiň derejesi gowşaklygyň tizligini we onuň ýerine ýetirilişini görkezýär. Bu kategoriýa, gowşaklygyň fizik taýdan, tor arkaly ýa-da lokal görnüşde tapylmagyny kesgitleýär.
+oPhysical (Fiziki): Bu ýagdaýda gowşaklyk diňe fiziki elýeterliligi bolan adamlar tarapyndan ulanylyp bilner.
+oLocal (Lokal): Lokally ulgama girmegiň zerurlygy bar.
+oAdjacent Network (Goşmaça Tor): Goşmaça torlaryň arasyndaky zerur gatnaşyklar arkaly gowşaklyk tapylýar.
+oNetwork (Tor): Gowşaklyk, tor üsti bilen töwerekde aragatnaşyk arkaly tapylýar.
+b) Attack Complexity (Atak çylşyrymlylygy)
+Atak çylşyrymlylygynyň (Atak Complexity) derejesi, gowşaklygyň üstünlikli peýdalanylmagyny üpjün etmek üçin talap edilýän çylşyrymlylygy kesgitleýär. 
+oLow (Pes): Ataşment ýönekeý, we işleýän bir gural gerekdir.
+oHigh (Ýokary): Ataşmentiň amala aşyrylmagy üçin has çylşyrymly usullar we ýagdaýa laýyk hünär gerekdir.
+c) Privileges Required (Gerekli Iň Ygtyýarlar)
+Iň ygtyýarlar (Privileges Required) gowşaklygyň amala aşmagyna gerek bolan ygtyýarnamalary görkezýär. Şeýle-de bolsa, gowşaklygyň iň pes derejesi "None" bolup biler.
+d) User Interaction (Ulanyjy gatnaşyklary)
+Ulanyjy gatnaşyklary gowşaklygyň ýerine ýetirilmegi üçin ulanyjynyň gatnaşmagynyň zerurdygyny ýa-da ýokdugyny kesgitleýär.
+e) Impact (Täsir)
+Täsir (Impact) gowşaklygyň esasyndaky ulgama we maglumatlara täsirini we onuň howplarynyň derejesini görkezýär.
+
+Netije
+CVSS v3, gowşaklyklary we howplaryny has dogry we takyk bahalandyrmak üçin giňden ulanylýar. Esasy baha, wagtlaýyn baha we daşky gurşaw (çevre) bahasy arkaly gowşaklyklar dürli derejede we kategoriýada bahalanýar. Gowşaklygyň atak wekiliniň, çylşyrymlylygynyň, zerur ygtyýarlar we täsiri ýaly faktorlary göz öňünde tutmak, howplaryň we täsirleriň doly we takyk bahasyny berip biler.
+
+3)NMAP arkaly belli bir IP-nyň açyk portlaryny we gowşaklyklaryny ýüze çykarmaly.
+nmap -p- 10.10.73.63  açyk portlary görkezýär
+-p-  1-dan 65534 sany portuň ählisini barlaýar
+nmap --script vuln 10.10.73.63  gowşaklyklary barlaýar.
+7
+1)CERT we  SOC-yň tapawutlary.
+CERT we SOC Arasyndaky Tapawutlar
+CERT (Computer Emergency Response Team) we SOC (Security Operations Center) - bu iki hyzmat, kiberhowpsuzlyk ýagdaýlary we netijeli gorag üçin möhüm bolup, olaryň hyzmat we iş görnüşi dürli. Bu iki toparyň tapawutlary, olaryň maksatlaryna we işlenişine görä üýtgeýär. Aşaýdakyda CERT we SOC-nyň esasy tapawutlary görkezilýär:
+
+1. Maksatlar we Göreler
+a) CERT (Computer Emergency Response Team)
+Maksat: CERT, bir ýere gelip, komputer ulgamlarynda ýüze çykan kiberhowpsuzlyk hadysalaryna, gowşaklyklara we hüjüme reaksiýa bermek üçin döredilen topardyr. Bu topar, howpsuzlyk meselesine derrew reaksiýa berip, tiz çözgütleri we gorag çärelerini göz öňünde tutýar.
+Göreler: CERT, has köp sanly we tiz täsir edýän howplara garşy hereket edýär. Bu, gowşaklyk ýa-da zerur gorag çärelerini öz içine alýar we tiz çözgüt we yzarlaýyş üçin kömek edýär. 
+oGowşaklyk analizi
+oKiberhüjüm ähtimallyklaryny we howplaryny yzarlamak
+oKiberhowpsuzlyk standartlaryny we protokollaryny ulanmak
+oKiberhowpsuzlyk meselesi ýüze çykan ýagdaýynda kömek we reaksiýa
+b) SOC (Security Operations Center)
+Maksat: SOC, ulanyjylaryň we ulgamlaryň howpsuzlygyny yzygiderli goramak üçin gurulýar. Bu topar, ulgamlarda we torlarda dowamly howpsuzlyk monitoringi geçirip, potensial howplara we gowşaklyklara gözegçilik edýär.
+Göreler: SOC, howpsuzlyk ulgamyny monitoring etmek, garşylyk çärelerini durmuşa geçirmek we ulanyjylaryň maglumat howpsuzlygyny goraýar. 
+oGüýçli we yzygiderli howpsuzlyk monitoringi
+oHujümlere reaksiýa we täsirleriniň azaldylmagy
+oLoglaryň we maglumatlaryň analiz edilmegi
+oKiberhüjüm, we howplara garşy awtomatiki çäreler görmek
+
+2. Fokus we Öncelikler
+a) CERT
+Fokus: CERT, möhüm howplara, gowşaklyklara we bikanun hereketlere reaksiýa bermek üçin döredilen topardyr. Bu toparyň esasy maksady, howplaryň we gowşaklyklaryň ýüze çykmagyny we ýaýramagyny öňüni almakdyr.
+Öncelikler: CERT topary gowşaklygyň tiz we ýokary derejede çözülmegine, problemanyň ýerine ýetirilmegine we ulgamyň goragynyň tiz ýokarlandyrylmagyna esaslanýar.
+b) SOC
+Fokus: SOC, ulgamlaryň we torlaryň howpsuzlygyny yzygiderli monitoring etmekde we ulanyjylara howpsuzlyk ýagdaýlaryny ýokarlandyrmakda esaslanýar.
+Öncelikler: SOC topary, tiz wagtda ulgamlaryň howpsuzlyk ýagdaýlaryny we hereketlerini gözden geçirýär we hakyky wagtynda howplara reaksiýa bermäge gönükdirilen.
+
+3. Hususy Kyndyklary we Täsirleri
+a) CERT
+Kyndyklary: CERT topary, aýratynlykda dürli ulgamlarda ýüze çykan howplara we gowşaklyklara tiz reaksiýa bermek üçin çalt we netijeli çözgüt tapmalydyr. Şeýle-de bolsa, dürli hünärler we usullar arkaly hadysalara we gowşaklyklara reaksiýa bermek aňsat bolup bilmez.
+Täsirler: CERT topary howplaryň tiz kesgitlemegine we gowşaklyk bilen baglanyşykly meseleleriň çalt çözülmegine mümkinçilik berýär. Bu, öz gezeginde, howplaryň ýaýramagynyň öňüni almakda möhüm rol oýnaýar.
+b) SOC
+Kyndyklary: SOC topary, ulanyjylaryň we ulgamlaryň howpsuzlygyny yzygiderli monitoring etmekde, has köp maglumat we loglary gözden geçirmeli bolýar. Bu, ulanyjylaryň, ulgamlaryň we torlaryň ýokary gorag derejesini üpjün etmek üçin çylşyrymly we uzak möhletli işdir.
+Täsirler: SOC topary, howplara garşy ýönekeý we dowamly monitoring geçirip, ulgamlaryň we torlaryň howpsuzlygyny üpjün edýär. Şeýle-de, howplar ýüze çykarylanda, olara derrew reaksiýa bermäge mümkinçilik berýär.
+
+4. Yzygiderlilik we Awtomatizasiýa
+a) CERT
+Yzygiderlilik: CERT, kiberhowpsuzlyk meselelerine we gowşaklyklara reaksiýa bermekde, tiz çözgüt tapmaga gönükdirilendir. Bu topar yzygiderli monitoringi geçirmez, emma aýratyn ýagdaýlarda we gowşaklykda hereket edýär.
+Awtomatizasiýa: CERT işinde awtomatizasiýa has az ulanylýar. Topar, häzirki ýagdaýy analiz etmek we gowşaklyga reaksiýa bermek üçin islendik çäreleri görýär.
+b) SOC
+Yzygiderlilik: SOC, ulgamlarda we torlarda yzygiderli howpsuzlyk monitoringi geçirýär. Bu, howplara, gowşaklyklara we hüjümlere gözegçilik etmek üçin dowamly hyzmatdyr.
+Awtomatizasiýa: SOC, howplara garşy awtomatiki çäreleri geçirmek üçin ulgamlary ulanyp bilýär. Awtomatizasiýa arkaly howplara tiz reaksiýa bermek we olaryň täsirini azaltmak üçin netijeli çäreler görüljekdir.
+
+5. Işgärleriň Rolu
+a) CERT
+Işgärler: CERT işgäri, kiberhowpsuzlyk ýagdaýlaryna derrew reaksiýa bermek üçin aýratyn hünärlere eýe bolup, gowşaklyk we howplara garşy reaksiýa çäreleri we çözgütler teklip edýär.
+b) SOC
+Işgärler: SOC işgäri, ulgamlarda we torlarda howpsuzlyk monitoringini yzygiderli geçirýär we howplara garşy reaksiýa bermek üçin degişli maglumatlary we loglary gözden geçirýär.
+
+Netije
+CERT we SOC iki sany möhüm kiberhowpsuzlyk hyzmaty bolup, olaryň arasynda köp tapawutlar bar. CERT topary gowşaklyklar we kiberhüjümler boýunça tiz çözgütler tapyp, reaksiýa bermek üçin işledilse, SOC topary ulgamlaryň we torlaryň howpsuzlygyny yzygiderli monitoring etmek we howplara garşy awtomatiki reaksiýa bermek üçin döredilýär. Her iki toparyň özbaşdak we özara gatnaşyklaryň möhüm orunlary bar, we kiberhowpsuzlygy güýçlendirmek üçin her ikisi hem möhüm bolup durýar.
+
+2)Maçhine Learning, bigdata.
+Машинное обучение (МО) и большие данные (БД) - это мощные технологии, которые уже изменили и продолжают изменять множество отраслей. Давайте подробнее рассмотрим, что они из себя представляют и как могут применяться.
+
+ Машинное обучение
+МО - это подмножество искусственного интеллекта, которое позволяет системам автоматически учиться и совершенствоваться на основе опыта. Примеры применения:
+
+1. Предсказательная аналитика: МО используется для предсказания различных событий, таких как будущие покупки клиентов, изменения цен на фондовом рынке или погодные условия.
+2. Распознавание образов: МО активно применяется для распознавания изображений и видео, таких как медицинская диагностика (например, распознавание раковых клеток), автономные транспортные средства и системы видеонаблюдения.
+3. Обработка естественного языка: Это включает в себя задачи, такие как машинный перевод, распознавание речи и чат-боты.
+
+ Большие данные
+БД - это большие объёмы данных, которые могут быть структурированными или неструктурированными и которые настолько велики и сложны, что традиционные методы обработки данных не справляются с ними. Примеры применения:
+
+1. Аналитика и бизнес-решения: Компании могут анализировать огромные наборы данных, чтобы выявить тенденции и принять обоснованные решения. Например, розничные компании анализируют данные о покупках, чтобы лучше понимать предпочтения клиентов.
+2. Персонализированные рекомендации: Платформы, такие как Netflix или Amazon, используют большие данные для рекомендаций на основе поведения пользователей.
+3. Здравоохранение: В медицинских исследованиях большие данные помогают анализировать клинические испытания, отслеживать распространение заболеваний и разрабатывать персонализированные методы лечения.
+
+Elbetde! Aşakda "Machine Learning" (Maşyn Öwrenişi) we "Big Data" (Uly Maglumatlar) barada giňişleýin maglumat berjek:
+
+### Maşyn Öwrenişi (Machine Learning)
+
+Maşyn Öwrenişi, enjamyň maglumatlary analiz edip, belli bir işleri ýerine ýetirmek we täze maglumatlar esasynda öwrener ýaly algoritmleri ulanmaga mümkinçilik berýär. Maşyn öwrenişi, beýik maglumatlary ulanyp, öňdengörüjilik, klassifikasiýa, klassterizasiýa we beýleki meselelerde ulanylýar.
+
+Maşyn Öwrenişiniň Esasy Täsirli Ugurlary
+
+1. Öňdengörüjilik:
+   - Meselem, maliýe bazarlarynda aktiwleriň bahalarynyň öňden beýik edilmegi.
+   - Maşyn öwreniş algoritmleri maglumatlary analiz edýär we geljekdäki netijeleriň öňdengörüjiligini döredýär.
+
+2. Klassifikasiýa:
+   - E-poçta maglumatlarynda spam e-poçta e-poçtalaryny klassifikasiýalaşdyrmak.
+   - Maşyn öwreniş algoritmleri maglumatlary belli bir klaslara ýa-da kategoriýalara bölýär.
+
+3. Klassterizasiýa:
+   - Uly maglumat bazalarynda benzewşi bolan maglumatlary klassterizasiýalaşdyrmak.
+   - Maşyn öwreniş algoritmleri maglumatlary benzewşi bolan klasterlere bölýär.
+
+4. Täjirçilik Analiz:
+   - Täjirçilik we marketing strategiýalary üçin müşderi maglumatlary analiz etmek.
+   - Maşyn öwreniş algoritmleri müşderi maglumatlaryny analiz edip, marketing strategiýalaryny gowulaşdyrýar.
+
+### Uly Maglumatlar (Big Data)
+
+Uly Maglumatlar (Big Data), örän uly we çylşyrymly maglumatlary düşündirýär, olaryň yzygiderli saklanyşy we analiz edilmegi üçin adaty maglumat dolandyryş ulgamlary ýeterlik däl bolýar. Uly Maglumatlar, dürli ulgamlarda giňden ulanylýar we işjeňligi, netijeliligi we öňdengörüjiligi ýokarlandyrmak üçin ulanylýar.
+
+Uly Maglumatlaryň Esasy Täsirli Ugurlary
+
+1. Maglumat Saklanyşy:
+   - Uly maglumat bazalary, maglumatlaryň çylşyrymly derejesini we mukdaryny saklamak üçin ösdürilýär.
+   - Bu ulgamlarda maglumatlar strukturaly we strukturasyz görnüşlerde saklanýar.
+
+2. Maglumat Analizi:
+   - Maşyn öwreniş algoritmleri we data mining usullary ulanyp, uly maglumatlary analiz etmek.
+   - Bu analizler, täze maglumatlary ýüze çykarmak we kararlary gowulaşdyrmak üçin ulanylýar.
+
+3. Reýal-Time Analiz:
+   - Maglumatlaryň reýal-time (hakyky wagtda) analiz edilmegi.
+   - Uly maglumatlar ulgamlary, maglumatlary tizden-tiz analiz edip, netijeleri okamaga mümkinçilik berýär.
+
+4. Öňdengörüjilikli Analiz:
+   - Geljekdäki ýagdaýlary öňdengörüjilik analizi bilen analiz etmek.
+   - Bu analizler, iş strategiýalaryny gowulaşdyrmak we riskleri azaltmak üçin ulanylýar.
+
+Maşyn Öwrenişi we Uly Maglumatlar, guramalaryň işjeňligini ýokarlandyrmak we maglumatlaryň netijeliligini gowulaşdyrmak üçin möhüm tehnologiýalardyr.
+
+
+3)Burpsuite ulgamy bilen web sahypanyň gowşaklygyny bruteforce etmeli.
+
+8
+1)EDR tehnologiýasynyň MH-daky orny we ulanylyşy.
+
+EDR tehnologiýasynyň maglumat howpsuzlygyndaky orny we ulanylyşy:
+
+EDR tehnologiýasynyň orny:
+1. Ulgamlaryň goragy: EDR tehnologiýasy, kompýuterleriň, noutbuklaryň we mobil enjamlaryň howpsuzlygyny üpjün etmek üçin yzygiderli gözegçilik we analiz geçirýär.
+2. Howplary ýüze çykarmak: EDR, ulanyjy hereketlerini we howplary öňünden anyklamak üçin davranyş analitikasy we maşyn öwrenişi ulanýar.
+3. Awtomatlaşdyrylan jogap: Howp ýüze çykarylanda, EDR ulgamlary awtomatiki ýagdaýda zyýanly enjamlary izolirläp, howpuň ýaýramagynyň öňüni alýar.
+4. Hadysalaryň derňewi: EDR jikme-jik maglumat berýär we howpsuzlyk hadysalarynyň asyl sebäplerini derňeýär.
+5. Integrasiýa: EDR tehnologiýasy beýleki howpsuzlyk gurallary bilen aňsatlyk bilen birleşýär, mysal üçin SIEM we SOAR platformalary bilen.
+
+EDR tehnologiýasynyň ulanylyşy:
+1. Hadysalary ýüze çykarmak we jogap bermek: EDR, kiber hüjümleri tiz ýüze çykarmaga we olara jogap bermäge kömek edýär, işiň durmasynyň we ýitgileriň azalmagyny üpjün edýär.
+2. Öňdebaryjy howplardan goramak: EDR çylşyrymly we niýetlenen hüjümleri, mysal üçin APT (Advanced Persistent Threats) anyklamaga we blokirlemäge mümkinçilik berýär.
+3. Kanunçylyga laýyk gelmek: EDR arkaly guramalar howpsuzlyk boýunça standartlaryň we düzgünleriň talaplaryna has gowy laýyk gelýärler.
+4. Analiz we hasabat berişlik: EDR ulgamlary jikme-jik hasabatlar we analitika berýär, bu bolsa esasly kararlar kabul etmekde we umumy howpsuzlygy ýokarlandyrmakda kömek edýär.
+5. Yzygiderli täzelik we uýgunlaşmak: EDR çözgütleri täzelenip we täze howplara uýgunlaşýar, häzirki goragy üpjün edýär.
+
+2)Phishing hüjüminiň öňüni almak gurnamak barada düşünje.
+Phishing hüjümleriniň öňüni almak üçin birnäçe möhüm çäreler bar. Ine, şolaryň käbiri:
+
+Phishing hüjümleriniň öňüni almak çäreleri:
+1. Howpsuzlyk bilimleri we tälim: Ulanyjylara phishing hüjümleriň alamatlaryny tanatmak we olardan nädip gaça durmalydygyny öwretmek üçin yzygiderli tälimler geçirilmelidir.
+2. Awtentifikasiýa usullary: Iki faktoryly autentifikasiýa (2FA) ulanyp, hasaplara girmegi has howpsuz etmek.
+3. E-poçta süzgüçleri: E-poçta süzgüçlerini gowulandyrmak we phishing e-poçtalaryny blokirlemek üçin anti-phishing süzgüçlerini ulanyp, zyýanly habarlary öňünden blokirlemek.
+4. Ulanyjy maglumatlary şifrlemek: Ulanyjylaryň şahsy maglumatlaryny we hasap maglumatlaryny şifrlemek, howpsuzlygyňy has-da güýçlendirmek üçin.
+5. Web saýt howpsuzlygy: HTTPS we SSL/TLS ýaly howpsuzlyk protokollaryny ulanyp, web saýtlaryň howpsuzlygyny üpjün etmek.
+6. Gün tertibi bolmadyk e-poçta alertleri: Gün tertibinde bolmadyk e-poçta habarnamalaryny görkezmek, ulanyjylary habardar etmek.
+
+Phishing hüjümleriniň öňüni almak gurnamalary boýunça dünýä tejribesi:
+1. Güýçli howpsuzlyk programma üpjünçiligini ulanyp: Iri kärhanalar we guramalar, anti-phishing we anti-malware howpsuzlyk programma üpjünçiligini ulanyp, phishing hüjümleriniň öňüni alýarlar.
+2. Şübheli baglanyşyklary we faýllary analiz etmek: Ulanyjylaryň göçürip almak isän baglanyşyklaryny we faýllaryny öňünden analiz edip, olara girilmezden öň zyýanlydygyny ýa-da däldigini anyklamak.
+3. Hakyky wagtynda tälimler: Ulanyjylaryň phishing hüjümlerine garşy nädip reagirlemelidigini we nädip goramalydygyny öwretmek üçin tälimler we simulýasiýalar geçirmek.
+4. Phishing hadysalaryny habar bermek: Ulanyjylaryň phishing synanyşyklaryny habar bermegini ýeňilleşdirmek we şol habarlary derrew derňemek.
+
+Bu çäreler we gurnamalar, phishing hüjümleriniň öňüni almakda we maglumat howpsuzlygyny güýçlendirmekde möhüm ädimlerdir. Şeýle çäreler, iş ýerinde howpsuzlyga we ulanyjylaryň şahsy maglumatlarynyň goragyna goşant goşýar. Eýsem, siziň öz guramaňyz üçin nähili çäreleri öwrenmek isleýärsiňiz?
+3)Gmail-e gelýän hatlary diňe şu kompýuterde ýatda saklar ýaly etmeli(setting-den düzetmeli).
+
+9
+1)Ransomware hüjümi barada düşünje (atlary, görnüşleri).
+Ransomware hüjümleri, kompýuter maglumatlarynyň şifrini açmak üçin pul talaplaryny talap eden köpçilikli malware ulgamlarydyr. Olaryň birnäçe görnüşleri bar:
+
+Ransomware görnüşleri:
+1. Crypto Ransomware (Şifrleýişli Ransomware): Bu görnüş ulgamlaryň kompýuterde ýerleşen maglumatlary şifrleýär we şifrini açmak üçin dekripsiýa açaryşy talap eder.
+2. Locker Ransomware (Kaplamalary): Bu ulgamlar kompýuteriň tamamyny bloklap, ulanyjy maglumatlaryna girişden çäklendirýär we pul talap eder.
+3. Scareware (Korku Ransomware): Bu ulgamlar kompýuterda viruslary ýa-da başga problemleri tapar, ulanyjy pul talap edýär we olara çözüm berýär diýip soýlap, emes bolsa, köp çözgütleri we pop-up habarlary berýär.
+4. Leakware (Şaffatma Ransomware): Bu görnüş ulgamlary maglumatlaryň açyk ýazgynyny ýa-da şaffatma edilmezlikden gaýrat edýär, ulanyjy pul talap edýär we maglumatlaryň açyk ýazgynyny özleşdirmekden gaýrat edýär.
+5. Ransomware as a Service (RaaS): Bu görnüş ulgamlary "professionally" hackerlaryň anonim ýaly ulgamlaryny ulanýar, olar ulgamlary ulanýar, pul talaplaryny toplap, ulgamlaryň açyşyny berip, puldan bir ýeňiş üçin pul talap ederler.
+
+Ransomware atlary:
+1. WannaCry: 2017 yýlda ýygy-ýygy ýaýraman ýaly hüjümle tanalýan ulgam.
+2. Petya/NotPetya: 2016-2017 yýllarda ýygy-ýygy ýaýraman ýaly hüjümle tanalýan ulgam.
+3. REvil/Sodinokibi: 2020 yýlda ýygy-ýygy ýaýraman ýaly hüjümle tanalýan ulgam.
+4. Ryuk: 2018 yýlda ýygy-ýygy ýaýraman ýaly hüjümle tanalýan ulgam.
+5. DarkSide: 2021 yýlda ýygy-ýygy ýaýraman ýaly hüjümle tanalýan ulgam.
+
+Bu atlaryň köpü, şaffatma we şifrleýişli hüjümler bilen tanalýar. Ransomware hüjümleriň öňüni almak üçin, ulanyjylara yzygiderli howpsuzlyk bilimleri we tälimler geçirilip, şahsy maglumatlary şifrlemek we güýçli howpsuzlyk çäreleri ulanýar.
+
+2)Web howpsuzlygy barada düşünje (TLS, SSL, PENTEST).
+
+TLS (Transport Layer Security) we SSL (Secure Sockets Layer)
+- TLS we SSL internetde maglumat alyş-çalşygy howpsuz etmek üçin protokollar bolup durýar. Olar maglumatlary şifrlemek bilen ulanyjylar we serwerleriň arasyndaky kommunikasiýany goragy üpjün edýär.
+- SSL: Öňki protokol bolup, häzirki wagtda TLS tarapyndan çalyşylýar. Şeýle-de bolsa, SSL ady heniz hem giňden ulanylýar.
+- TLS: SSL-iň kämilleşdirilen we has ygtybarly görnüşi. TLS, maglumatlaryň anyklygyny we gizlinligini üpjün etmek üçin ulanylýar. HTTPS, internetde howpsuz baglanyşyklar üçin iň köp ulanylýan protokoldur, bu HTTP-e TLS ýa-da SSL-iň goşulmagy arkaly amala aşyrylýar.
+
+Penetration Testing (PENTEST)
+- Penetration Testing ýa-da PenTesting, bu - howpsuzlyk hünärmenleriniň ulgamlaryň ýa-da programmalaryň kemçiliklerini we gowşaklyklaryny ýüze çykarmak üçin geçirýän synaglarydyr.
+- Maksat: PENTEST, kiber hüjümleriň öňüni almak we maglumat howpsuzlygyny güýçlendirmek maksady bilen, mümkinçilikli gowşaklyklar we howplary ýüze çykarmagy göz öňünde tutýar.
+- Usullar: PENTEST-yň dürli usullary bar, şolaryň käbiri: Wi-Fi howpsuzlygy barlaglary, web programmalarynyň howpsuzlyk synaglary, we sosial inženerçilik synaglary.
+- Ýolbaşçy: PENTEST-y geçirýän hünärmenlere "penetration tester" ýa-da "ethical hacker" diýilýär.
+
+Web Howpsuzlygyna degişli beýleki öňüni alyş çäreleri:
+1. Firewalls: Tora girýän we toradan çykýan maglumatlary barlap, zyýanly traffiki blokirleýär.
+2. Antivirus we anti-malware programmalary: Kiber howplary, wiruslar we zyýanly programmalar bilen göreşýär.
+3. Güýçli parollar we autentifikasiýa: Ulanyjylaryň hasaplaryna girişiniň howpsuzlygyny üpjün etmek üçin güýçli parollar we iki faktoryly autentifikasiýa (2FA) ulanylýar.
+4. Regelarly Software Updates: Programmalary we ulgamlary yzygiderli täzeläp, gowşaklyklary düzetmek we howpsuzlygy ýokarlandyrmak.
+
+Bu çäreler we tehnologiýalar web howpsuzlygyny üpjün etmekde we kiber hüjümleriň öňüni almakda möhüm rol oýnaýarlar. 
+
+3)Nmap arkaly port skannirlemek we hyzmat maglumatlary
+(nmap -sV -p- 192.168.0.23)
+
+
+					    10
+XDR-barada düşünje.
+ XDR-de nähili işleýär?
+XDR, dürli howpsuzlyk önümlerinden maglumatlary we maglumatlary birleşdirip, howpsuzlyk toparlaryna bir ýerde giňişleýin we utgaşdyrylan gözleg berýär. Dürli maglumatlary we howpsuzlyk analitikasyny birleşdirýär we has täsirli howpsuzlyk çözgütlerine goşant goşýar. Adaty garşy maglumat ulgamlaryndan (SIEM) tapawutlylykda, XDR diňe bir maglumatlary jemlemek bilen çäklenmän, eýsem şol maglumatlary seljermegi we ýerlikli howpsuzlyk çärelerini alyp barmagy başaryp biler.
+
+ XDR-den haýsy peýdalar bar?
+1. Howpsuzlyk netijeliliginiň ýokarlanmagy: XDR howpsuzlyk toparlaryna hakyky wagtlaýyn maglumaty berip, garşy hereketleri çaltlaşdyrmaga we netijeliligini ýokarlandyrmaga kömek edýär.
+2. Dürli howpsuzlyk önümleriniň utgaşdyrylmagy: XDR birnäçe howpsuzlyk önümleri bilen bilelikde işleýär, bu bolsa howpsuzlyk çözgütleriniň we maglumatyň has netijeli we utgaşdyrylan görnüşde ulanylmagyna kömek edýär.
+3. Has giňişleýin howpsuzlyk analitikasy: XDR dürli çeşmelerden gelen maglumatlary jemläp, howpsuzlyk hadysalaryny we howplary seljerip biler.
+4. Täsirli garşy çäreler: Maglumatlaryň jemlenmegi we howpsuzlyk analitikasynyň gowulaşmagy bilen, XDR çalt we täsirli howpsuzlyk çärelerini amala aşyrmaga kömek edýär.
+
+ XDR-iň görnüşleri we çözgütleri
+XDR çözgütleri dürli görnüşde bolup bilýär. Adaty XDR çözgütleriniň birnäçesi:
+1. Howpsuzlyk Informasiýa we Hadysa Dolandyryş (SIEM) ulgamlary bilen utgaşdyrma: Bu çözgütler adaty SIEM ulgamlary bilen bilelikde işläp, hadysalar we maglumatlar barada giňişleýin maglumat berýär.
+2. Ulag nokat gorag çözgütleri bilen utgaşdyrma: XDR ulgamlary ulag nokat gorag önümleri (EDR) bilen bilelikde işläp, ulgamlaryň we enjamlaryň has netijeli goragyny üpjün edýär.
+3. Tor howpsuzlyk önümleri bilen utgaşdyrma: XDR tor howpsuzlyk önümleri (NDR) bilen bilelikde işläp, tor hadysalaryny we howplaryny öňünden duýup biler.
+
+XDR çözgütleri guramalaryň howpsuzlyk strategiýasynda möhüm rol oýnap, häzirki zaman howpsuzlyk meselelerine garşy netijeli çäreler görmäge ýardam berýär.
+
+1)Vpn-yň artykmaçlygy maglumat howpsuzlygynda.
+
+VPN-iň esasy artykmaçlyklary we aýratynlyklary
+
+ 1. Maglumat şifrlemek
+VPN ulanylanda, maglumatlar şifrlenýär, bu bolsa olaryň internet arkaly geçirilýän wagtynda goragly bolmagyny üpjün edýär. Şifrlenen maglumatlary diňe degişli alyjy açyp okap biler, şeýlelik bilen üçünji taraplaryň maglumatlaryňyza elýeterli bolmagynyň öňi alynýar.
+
+ 2. IP-ýerini gizlemek
+VPN ulanylanda, ulanyjynyň asyl IP-ýeri gizlenýär we VPN serweriniň IP-ýerini ulanýar. Bu, ulanyjynyň onlaýn hereketlerini yzarlamaga we olaryň maglumatyňyzdan habarly bolmagyna garşy goşmaça gorag üpjün edýär.
+
+ 3. Gizlinlik we konfidensiallyk
+VPN, ulanyjynyň onlaýn hereketleriniň we maglumatlarynyň konfidensiallygyny üpjün edýär. Bu, maglumatlaryň üçünji taraplaryň yzarlamagyndan we yzarlamalaryndan goragly saklanmagyna kömek edýär.
+
+ 4. Tor howpsuzlygy
+VPN, jemgyýetçilik Wi-Fi ýa-da beýleki howpsuz bolmadyk torlarda ulanylanda goraglylygy üpjün edýär. Bu, maglumatlaryň hakerler ýa-da başga howpsuzlyksyz torlarda ele geçirilmeginiň öňüni alýar.
+
+ 5. Geo-çäklendirmeleri aşmak
+VPN ulanylanda, ulanyjylar belli bir ýurtda ýa-da sebitiň içinde elýeterli bolmadyk mazmunlara elýeterlik gazanyp bilerler. Bu, geo-çäklendirilen web sahypalaryna we hyzmatlara girmegi üpjün edýär.
+
+VPN-iň ulanylyş ugurlary
+
+ 1. Şahsy maglumatlary goramak
+Adamlar, VPN ulanyp, şahsy maglumatlaryny we onlaýn hereketlerini gorap bilerler. Bu, aýratynlykda köpçülikleýin Wi-Fi torlarynda ulanylanda aýratyn peýdalydyr.
+
+ 2. Telekeçilik maglumatlarynyň howpsuzlygyny üpjün etmek
+Guramalaryň köpüsi, VPN ulanyp, iş maglumatlaryny we içerki torlaryň goraglylygyny üpjün edýär. Bu, işgärleriň uzakdan işlemegi üçin howpsuz torlary üpjün edýär.
+
+ 3. Mazmunlara elýeterlik
+Ulanyjylar, VPN ulanyp, geo-çäklendirilýän mazmunlara we hyzmatlara elýeterlik gazanyp bilerler. Bu, dürli ýurtlarda we sebitlerde elýeterli bolmadyk web sahypalaryna girmegi üpjün edýär.
+
+ 4. Onlaýn bank hyzmatlary
+VPN, onlaýn bank hyzmatlary ulanylanda, bank maglumatlarynyň we maliýe amallarynyň goraglylygyny üpjün edýär. Bu, hasabatyň goraglylygyny we amallaryň howpsuzlygyny üpjün edýär.
+
+VPN-leriň maglumat howpsuzlygy babatyndaky aýratynlyklary we artykmaçlyklary barada has giňişleýin düşündiriş berip geçdik. Başga haýsydyr bir soraglaryňyz ýa-da başga bir tema barada has köp maglumat isleseňiz, hökman habar beriň. 
+
+2)Shodan.io-de vpn-yň gowşaklyklaryny ýüze çykarmak we seljermek.
+
+
+   11
+1)Maglumat howpsuzlygynda blockchain tehnologiýasyny ulanmaklygyň aýratynlyklary
+Blockchain tehnologiýasynyň maglumat howpsuzlygynda ulanmagyň birnäçe esasy aýratynlyklary bar. Bu tehnologiýa, maglumatlaryň howpsuzlygyny we konfidensiallygyny üpjün etmek üçin birnäçe möhüm aýratynlyklary hödürleýär:
+
+ 1. Dürli Gorag Çäresi
+Blockchain, her transaktiýanyň aýratyn hasabatyna (blok) eýe bolup, maglumatlar yzygiderli we üýtgedip bolmajak görnüşde saklanýar. Bu, maglumatyň tahrirlenmeginiň we ýalňyşlyklaryň öňüni alýar.
+
+ 2. Şifrlenme we Gizlinlik
+Blockchain ulgamlary, maglumatlary şifrlemek we gizlemek üçin ykjam algoritmleri ulanýar. Bu, maglumatlaryň diňe degişli alyjy tarapyndan açylmagyny üpjün edýär.
+
+ 3. Üytgedip bolmajaklygy
+Blockchain, maglumatyň bir gezek ýazylandan soň üýtgedilmegini ýa-da öçürilmegini kynlaşdyrýar. Bu, maglumatlaryň howpsuzlygyny we ygtybarlylygyny ýokarlandyrýar.
+
+ 4. Desentralizasiýa
+Blockchain ulgamlary desentralizirlenen torlara esaslanýar, bu bolsa maglumatyň bir ýerde jemlenmeginiň öňüni alýar. Bu, maglumatyň diňe bir ýerden ýa-da serwerden ele geçirilmeginiň öňüni alýar.
+
+ 5. Transparanlygy we İzlenmegini üpjün etmek
+Blockchain ulgamlary, her bir transaktiýanyň aç-açan we yzarlanyp bilner şekilinde bolmagyny üpjün edýär. Bu, her bir ulanyjynyň maglumatyň nähili ulanylýandygyna gözegçilik etmek mümkinçiligini üpjün edýär.
+
+ 6. Hüjümlerden Goramak
+Blockchain, torlaryň haýsydyr bir hüjüme garşy goraglylygyny üpjün edýär. Bu, maglumatyň hakerleriň hüjümlerinden we beýleki howplardan goraglylygyny üpjün edýär.
+
+ 7. Ýokary ygtybarlylyk
+Blockchain, maglumatyň ýokary ygtybarlylygyny we hakykylygyny üpjün edýär. Bu, maglumatyň ygtybarly we howpsuz saklanmagyny üpjün edýär.
+
+2)Kiberjenaýatçylaryň görnüşleri.
+Kiberjenaýatçylar birnäçe görnüşde bolup bilerler, olar kiber ulgamlarynyň işini bozmak, maliýe gazanmak we başga çäklerde hüjüm etmek maksady bilen işleýärler. Olar üç esas görnüşe gurulýar:
+
+1. Kiber Hüjümçilere Garşy Göreşýänler (Hacktivists)
+Bu kiberjenaýatçylar, syýasy, jemgyýetçi ýa-da ynsan haqlary barada pikirlere garşy göreşýärler. Olar, kiber hüjümlerle bu pikirlere garşy çykyş etmek maksady bilen işleýärler.
+
+2. Kiber Terrorçylar
+Bu jenaýatçylar, gorky ýa-da howsala döretmek maksady bilen elektron ulgamlary durnuksyzlaşdyrmaga gönükdirilýärler. Olar, terrorçylyk hüjümlerini işleýärler.
+
+3. Kiber Hüjümçilere Garşy Göreşýänler (Cybercriminals)
+Bu jenaýatçylar, maliýe gazanmak maksady bilen kiber hüjümler edýärler. Olar, bank kartlary, e-poçta hesaplary, we başga maglumatlary zyýanlamakda işleýärler.
+Elbetde, kiberjenaýatçylaryň dürli görnüşleri we olaryň ulanylýan usullary barada has giňişleýin düşündiriş bererin.
+
+1. Kiberjytaýatçylar (Cybercriminals)
+Kiberjytaýatçylar - kiber aragatnaşyk ulgamlaryny ulanyp, maliýe gazanmak ýa-da hususy maglumatlary ele geçirmek maksady bilen jenaýatçylykly iş alyp barýan şahslardyr. Olar adatça aşakdaky usullary ulanyp iş alyp barýarlar:
+- Fishing (Phishing): Bu usulda, kiberjytaýatçylar ýalan e-poçtalar ýa-da web sahypalary arkaly ulanyjylaryň hususy maglumatlaryny (mysal üçin, bank hasaplary, parollar) ele geçirýärler.
+- Ýokanç programma (Malware): Bu, kompýuter ulgamlaryna zyňylýan we maglumaty ele geçirmäge, bozmaga ýa-da ulanyjynyň ygtyýaryndan çykmaga gönükdirilen zyýanly programma üpjünçiligidir.
+- Ransomware: Kiberjytaýatçylar, maglumatlary şifrlemek we açmak üçin pul tölegini talap edýän zyýanly programmalary ulanýarlar.
+
+2. Hacktivists (Kiber Aktivistler)
+Kiber aktivistler - syýasy, jemgyýetçilik ýa-da ideologiki maksatlara ýetmek üçin kiber hüjümleri ulanýan şahslardyr. Olar adatça:
+- Web sahypalarynyň bozulmagy (Defacement): Bu usulda, kiber aktivistler web sahypalarynyň mazmunyny üýtgedýärler we onuň üsti bilen öz syýasy ýa-da ideologiki pikirlerini ýaýradýarlar.
+- Guramalara garşy hüjümler (DDoS): Kiber aktivistler, syýasy ýa-da ideologiki garşy çykyş etmek maksady bilen, guramalaryň web sahypalaryna ýa-da ulgamlaryna gönükdirilen köp sanly hüjümi (DDoS hüjümleri) amala aşyrýarlar.
+
+3. Kiber Terroristler (Cyber Terrorists)
+Kiber terroristler - gorky ýa-da howsala döretmek maksady bilen elektron ulgamlary durnuksyzlaşdyrmaga gönükdirilen hüjümleri amala aşyrýan şahslardyr. Olar adatça:
+- Infrastruktura hüjümler: Kiber terroristler, energetika ulgamlary, transport ulgamlary ýa-da beýleki jemgyýetçilik infrastruktura garşy hüjümleri amala aşyrýarlar.
+- Maglumatlaryň üýtgedilmegi: Olar maglumatlary üýtgedip, jemgyýetçilik durnuksyzlygyny döredip bilerler.
+
+4. Insider Threats (Içerki Howplar)
+Içerki howplar, kompaniýanyň ýa-da guramanyň içerki işgärleri tarapyndan amala aşyrylýan kiber hüjümleridir. Bu hüjümler adatça:
+- Maglumatlaryň ele geçirilmegi: Işçiler ýa-da öňki işçiler, kompaniýanyň hususy ýa-da konfidensial maglumatlaryny ogurlamak ýa-da ýaýratmak üçin iş alyp barýarlar.
+- Zyýan beriji hereketler: Içerki howplar, kompaniýanyň ulgamlaryny bozmak ýa-da maglumatlary üýtgedip, zyýan beriji hereketleri amala aşyrýarlar.
+
+5. State-Sponsored Hackers (Döwlet tarapyndan goldanylýan hakerler)
+Bu hakerler, döwletleriň maslahatlary ýa-da goldawy bilen kiber hüjümleri amala aşyrýarlar. Olar adatça:
+- Milli howpsuzlyga garşy hüjümler: Döwlet tarapyndan goldanylýan hakerler, beýleki döwletleriň milli howpsuzlygyna zyýan bermek maksady bilen hüjümleri amala aşyrýarlar.
+- Kompaniýalaryň syrlaryny ogurlamak: Olar kompaniýalaryň iş syrlaryny ýa-da patent maglumatlaryny ogurlamak üçin hakerlik işlerini amala aşyrýarlar.
+
+Kiberjenaýatçylaryň görnüşleri we olaryň ulanylýan usullary barada has giňişleýin düşündiriş berdim. Başga haýsydyr bir soragyňyz ýa-da başga bir tema barada has köp maglumat isleseňiz, habar beriň!
+3)Metasploit arkaly exploit ulanmak.
+
+   12
+1)MITM ýerine ýetirilişi we oňa garşy göreşmegiň usullary.
+MITM (Man-in-the-Middle) hüjümi, iki tarap arasyndaky aragatnaşygyň arasynda ýerleşip, maglumatlary ele geçirmek ýa-da üýtgetmek maksady bilen amala aşyrylýan kiber hüjümdir. Bu hüjümiň ýerine ýetirilişi we oňa garşy göreşmegiň usullary barada has giňişleýin düşündiriş bererin.
+
+ MITM Hüjüminiň Ýerine Ýetirilişi
+
+1. Wi-Fi Eavesdropping (Wi-Fi Diňlemek)
+   Hüjümçiler, ýalan Wi-Fi torlaryny döredip, ulanyjylaryň şol torlara birikmegini üpjün edýärler. Bu ýagdaýda, hüjümçiler ulanyjylaryň ähli onlaýn hereketlerini görüp bilerler.
+
+2. Session Hijacking (Sessia Ogurlamak)
+   Hüjümçiler, brauzer cookielerini ele geçirip, ulanyjylaryň login maglumatlaryny we beýleki şahsy maglumatlaryny ogurlap bilerler.
+
+3. SSL Stripping (SSL Aýyrmak)
+   Hüjümçiler, HTTPS baglanyşyklaryny HTTP baglanyşyklaryna üýtgedip, ulanyjylaryň maglumatlaryny aç-açan görnüşde geçirip bilerler.
+
+4. DNS Spoofing (DNS Ýalňyşlamak)
+   Hüjümçiler, DNS serwerlerini ýalňyşlap, ulanyjylary ýalan web sahypalaryna gönükdirip bilerler.
+
+5. Man-in-the-Browser (MITB)
+   Hüjümçiler, brauzeriň özüni zyýanly programma bilen ýokaşdyryp, ulanyjylaryň maglumatlaryny göni brauzerden ogurlap bilerler.
+
+ MITM Hüjümlerine Garşy Görüşmegiň Usullary
+
+1. Güýçli we Üýtgeşik Parollar Ulanyň
+   Güýçli we üýtgeşik parollar ulanyp, hüjümçileriň hasaplaryňyza girmeginiň öňüni alyň Attacks](https://www.strongdm.com/blog/man-in-the-middle-attack-prevention).
+
+2. Iki Faktory Awtentifikasiýa (2FA) Ulanyň
+   Iki faktory awtentifikasiýa ulanyp, hasaplaryňyza girmegiňizi has howpsuz ediň Attacks](https://www.strongdm.com/blog/man-in-the-middle-attack-prevention).
+
+3. Şifrlenme Ulanyň
+   Maglumatlaryňyzy şifrlemek, olaryň üçünji taraplar tarapyndan ele geçirilmeginiň öňüni alar Attacks](https://bing.com/search?q=MITM+attack+prevention+methods).
+
+4. Jemgyýetçilik Wi-Fi Torlaryna Üns Beriň
+   Jemgyýetçilik Wi-Fi torlaryna birikmekde seresap boluň we mümkin bolsa VPN ulanyň Attacks](https://bing.com/search?q=MITM+attack+prevention+methods).
+
+5. SSL Şahadatnamalaryny Barlaň
+   Web sahypalaryna gireniňizde, SSL şahadatnamalarynyň dogrulygyny barlaň Attacks](https://bing.com/search?q=MITM+attack+prevention+methods).
+
+6. VPN Ulanyň
+   VPN ulanyp, internet baglanyşygyňyzy şifrlemek we howpsuzlygyny üpjün etmek Attacks](https://bing.com/search?q=MITM+attack+prevention+methods).
+
+7. Fishing Synanyşyklaryna Üns Beriň
+   Fishing synanyşyklaryna garşy seresap boluň we şübheli e-poçtalary ýa-da web sahypalaryny açmaň Attacks](https://bing.com/search?q=MITM+attack+prevention+methods).
+
+2)CVSS barada düşünje.
+Common Vulnerability Scoring System (CVSS) - bu, kiber howplaryň howpsuzlygynyň ýokanda ölçemek üçin ulanylýan açyk standartdyr. CVSS, kiber howplaryň esasy, zamanly we çäkli ölçemeleri berip, olaryň çäklerine görä maglumatlaryň howpsuzlygyny ölçýär.
+
+CVSS esasy ölçemleri
+1. Base Score (Asly Punkt)
+   Bu, kiber howplaryň esasy özelliklerini ölçýär. Olar şu ýaly ölçemlerden emele gelýär:
+   - Access Vector (AV): Hüjüm çäri.
+   - Access Complexity (AC): Hüjüm ýapylmagyň kynlygy.
+   - Authentication (Au): Hüjümçiň girişin özüne ýerleşýän.
+   - Confidentiality (C): Maglumatlaryň gizlinligi.
+   - Integrity (I): Maglumatlaryň bakylygy.
+   - Availability (A): Maglumatlaryň möçberi.
+
+2. Temporal Score (Zamanly Punkt)
+   Bu, hüjümçiň işiniň özüne ýerleşýän we olaryň çäklerine görä maglumatlaryň howpsuzlygyny ölçýär. Olar şu ýaly ölçemlerden emele gelýär:
+   - Exploitability (E): Hüjümçiň işiniň kynlygy.
+   - Remediation Level (RL): Hüjümniň çözülmegi.
+   - Report Confidence (RC): Hüjümniň berilme ýalylygy.
+
+3. Environmental Score (Çäkli Punkt)
+   Bu, kiber howplarynyň özüne ýerleşýän we olaryň çäklerine görä maglumatlaryň howpsuzlygyny ölçýär. Olar şu ýaly ölçemlerden emele gelýär:
+   - Collateral Damage Potential (CDP): Hüjümniň ýan ýaly zyýanlary.
+   - Target Distribution (TD): Hüjümniň möçberi.
+   - Impact Subscore (Confidentiality, Integrity, Availability) (ISA): Hüjümniň maglumatlaryň howpsuzlygynyň ölçegi.
+
+CVSS ölçemleri
+CVSS ölçemleri 0.0 - 10.0 arasında bolup, 10.0 maksimal howpsuzlyk bolup, 0.0 bolsa hiç hüjüm bolmadyk bolup kabul edilýär.
+
+CVSS versiyalary
+- CVSSv2: 2007-nji ýylda kabul edilen versiýa.
+- CVSSv3: 2015-nji ýylda kabul edilen versiýa.
+- CVSSv4: 2023-nji ýylda kabul edilen versiýa.
+
+CVSS, kiber howplarynyň howpsuzlygyny ölçmekde we onlaryň çözülmegi üçin önüp çykyş etmekde ulanylýan esasy bir standartdyr.
+
+3)OSINT gurallaryny ulanmak arkaly maglumatlary ýygnamak.
+(google dorking, Tin Eye Reverse Image Search, FaceCheck Reverse Image search, RevEye reverse Image Search, Whois History)
+
+
+					  13
+1)Spoofing onuň häzirki zaman goranyş usullary.
+Spoofing - bu, kiberjenaýatçylarň bir ulanyjy, web sahypa ýa-da telefon nömräsi we-de bir başga ulanyjy ýaly görünmek maksady bilen işleýän bir taktikadyr. Olar maglumatlary ogurlamak, zyýan bermek ýa-da başga çäklerde hüjüm etmek maksady bilen ulanýarlar. Häzirki zaman goranyş usullary barada giňişleýin düşündiriş berip geçelim:
+
+1. Email Spoofing (E-poçta Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar e-poçtanyň adresini ýalňyşlap, ulanyjyň e-poçtalaryna ýalan maglumatlary göndermekleýärler. Bu, ulanyjyň şüpheli maglumatlary bermekde ýolbaşdarmalydyr.
+
+2. Caller ID Spoofing (Caller ID Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar telefon nömräsinde ýalňyşlamak bilen telefon hüjümlerini amala aşýarlar. Bu, ulanyjyň telefon nömräsinde ýalan maglumatlary bermekde ýolbaşdarmalydyr.
+
+3. Website Spoofing (Web sahypa Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar web sahypalaryny ýalňyşlap, ulanyjylaryň şüpheli web sahypalaryna gönükdirýärler. Bu, ulanyjyň şüpheli maglumatlary bermekde ýolbaşdarmalydyr.
+
+4. IP Spoofing (IP Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar IP adreslerini ýalňyşlap, ulanyjylaryň şüpheli IP adreslerine hüjüm edýärler. Bu, ulanyjyň şüpheli maglumatlary bermekde ýolbaşdarmalydyr.
+
+5. DNS Spoofing (DNS Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar DNS serwerlerini ýalňyşlap, ulanyjylaryň şüpheli web sahypalaryna gönükdirýärler. Bu, ulanyjyň şüpheli maglumatlary bermekde ýolbaşdarmalydyr.
+
+6. ARP Spoofing (ARP Ýalňyşlamak)
+Bu usulda, kiberjenaýatçylar ARP tablalaryny ýalňyşlap, ulanyjylaryň şüpheli IP adreslerine hüjüm edýärler. Bu, ulanyjyň şüpheli maglumatlary bermekde ýolbaşdarmalydyr.
+
+Goranyş Usullary
+1. Antivirus Programmalary Ulanyň: Antivirus programmalary, spoofing hüjümlerini detektirowýar we bloklar.
+2. Firewall Ulanyň: Firewall, şüpheli ulgamlar barasynda gorag berýär.
+3. Iki Faktory Awtentifikasiýa (2FA) Ulanyň: Iki faktory awtentifikasiýa ulanyp, hasaplaryňyza girmegiňizi has howpsuz eder.
+4. Şifrlenme Ulanyň: Maglumatlaryňyzy şifrlemek, olaryň üçünji taraplar tarapyndan ele geçirilmeginiň öňüni alar.
+5. VPN Ulanyň: VPN ulanyp, internet baglanyşygyňyzy şifrlemek we howpsuzlygyny üpjün etmek.
+6. Şüpheli Linkleri Ýaklamak: Şüpheli linkleri açmaň.
+7. VPN Ulanyň: VPN ulanyp, internet baglanyşygyňyzy şifrlemek we howpsuzlygyny üpjün etmek.
+
+Bu goranyş usullary, spoofing hüjümlerinden gorag bermekde kömek eder.
+
+2)Access Control (Autentifikasiýa, Awtorizasiýa, Identifikasiýa).
+Access Control, maglumatlaryň we ulgamlaryň howpsuzlygyny üpjün etmek üçin üç esasy elementden durýar: autentifikasiýa, awtorizasiýa we identifikasiýa. Gelin, bu düşünjeleri giňişleýin düşündiriş bereýin:
+
+ 1. Identifikasiýa (Identification)
+Identifikasiýa, ulanyjylaryň ýa-da ulgamlaryň kime ýa-da näme bolýandygyny kesgitlemek prosesidir. Bu, ulanyjynyň şahsyýetini ykrar etmek üçin başlangyç ädimdir. Identifikasiýa, ulanyjy ady, e-poçta adresi ýa-da ID nomeri ýaly maglumatlary ulanyp amala aşyrylýar.
+
+ 2. Autentifikasiýa (Authentication)
+Autentifikasiýa, ulanyjynyň ýa-da ulgamyň tassyklanmagyny üpjün etmek prosesidir. Bu, ulanyjynyň ýa-da ulgamyň öz şahsyýetini dogry görkezýändigini tassyklamak üçin amala aşyrylýar. Autentifikasiýa, adatça parol, biometrik maglumatlar (barmak yzy, ýüz tanamak) ýa-da iki faktory awtentifikasiýa (2FA) ýaly usullar bilen amala aşyrylýar.
+
+ 3. Awtorizasiýa (Authorization)
+Awtorizasiýa, ulanyjynyň ýa-da ulgamyň maglumatlara ýa-da hyzmatlara girip bilme hukuklaryny kesgitlemek prosesidir. Bu, ulanyjynyň ýa-da ulgamyň belli bir maglumatlara ýa-da hyzmatlara girip bilmegini ýa-da iş alyp barmagyny üpjün etmek üçin amala aşyrylýar. Awtorizasiýa, adatça ulanyjy rollary, ygtyýarlyklary ýa-da ygtyýarlyk derejeleri arkaly amala aşyrylýar.
+
+ Access Control Process
+Access Control prosesiniň amala aşyrylyşy aşakdaky ädimlerden geçýär:
+1. Identifikasiýa: Ulanyjy ýa-da ulgam öz şahsyýetini görkezýär.
+2. Autentifikasiýa: Ulanyjy ýa-da ulgam öz şahsyýetini tassykladyryp biler.
+3. Awtorizasiýa: Ulanyjy ýa-da ulgam maglumatlara ýa-da hyzmatlara girip bilmek hukuklaryna eýe bolup biler.
+
+ Access Control Usullary
+Access Control dürli usullar arkaly amala aşyrylýar:
+- Role-Based Access Control (RBAC): Bu usulda ulanyjylara belli bir rollar (mäsalan, admin, ulanyjy) berilýär we olaryň ygtyýarlyklary şol rollara bagly bolýar.
+- Discretionary Access Control (DAC): Bu usulda ulanyjylara belli bir maglumatyň eýesi bolup, onuň ygtyýarlyklaryny beýleki ulanyjylara geçirip biler.
+- Mandatory Access Control (MAC): Bu usulda ulgamlaryň ygtyýarlyklaryny kesgitlemek we kontrollamak üçin belli bir syýasatlar ulanylýar.
+
+Access Control, maglumatlaryň we ulgamlaryň goragyny üpjün etmekde möhüm rol oýnaýar. Autentifikasiýa, awtorizasiýa we identifikasiýa birleşdirilip, maglumatlaryň we ulgamlaryň howpsuzlygyny we ygtybarlylygyny üpjün edýär. 
+
+3)SSH açar bilen serwere birikmek.
+(paroly aýyryp açar bilen girmeli,  etc/ssh/sshdconfig/digital ocean ssh key)
+
+
+					  14
+1)Ransomware goranmak we ýüze çykarmak.
+Ransomware, kiberjenaýatçylaryň ulgamlaryňyzy şifrlemek we ony açmak üçin pul talap etmek maksady bilen ulanýan zyýanly programma üpjünçiligidir. Ransomware hüjümlerinden goranyş we ýüze çykarmak üçin birnäçe usul bar:
+
+Goranyş Usullary
+
+1. Antiwirus Programmalary Ulanyň
+   Antiwirus programmalary, zyýanly programma üpjünçiligini detektirowýar we bloklaýar. Bu, ulgamlaryňyzyň howpsuzlygyny üpjün etmekde möhüm rol oýnaýar.
+
+2. Maglumatlary Yza Almak (Backup)
+   Maglumatlaryňyzy yza almak, ransomware hüjümlerinden soň maglumatlaryňyzy dikeltmek üçin möhüm ädimdir. Maglumatlaryňyzy yza almak üçin awtomatiki yza almak ulgamlaryny ulanyň.
+
+3. Iki Faktory Awtentifikasiýa (2FA) Ulanyň
+   Iki faktory awtentifikasiýa ulanyp, hasaplaryňyza girmegiňizi has howpsuz ediň. Bu, ulanyjylaryň hasaplaryna girmegiň kynlygyny ýokarlandyrýar.
+
+4. Şifrlenme Ulanyň
+   Maglumatlaryňyzy şifrlemek, olaryň üçünji taraplar tarapyndan ele geçirilmeginiň öňüni alar. Bu, maglumatlaryňyzyň goraglylygyny üpjün eder.
+
+5. Fishing Synanyşyklaryna Üns Beriň
+   Fishing synanyşyklaryna garşy seresap boluň we şübheli e-poçtalary ýa-da web sahypalaryny açmaň. Bu, zyýanly programma üpjünçiliginiň ulgamlaryňyza girmeginiň öňüni alar.
+
+Ýüze Çykarmak Usullary
+
+1. Antiwirus Programmalary Ulanyň
+   Antiwirus programmalary, zyýanly programma üpjünçiligini detektirowýar we bloklaýar. Bu, ransomware hüjümlerini ýüze çykarmakda we olaryň öňüni almakda möhüm rol oýnaýar.
+
+2. Maglumatlaryňyzy Yza Almak (Backup)
+   Maglumatlaryňyzy yza almak, ransomware hüjümlerinden soň maglumatlaryňyzy dikeltmek üçin möhüm ädimdir. Maglumatlaryňyzy yza almak üçin awtomatiki yza almak ulgamlaryny ulanyň.
+
+3. Iki Faktory Awtentifikasiýa (2FA) Ulanyň
+   Iki faktory awtentifikasiýa ulanyp, hasaplaryňyza girmegiňizi has howpsuz ediň. Bu, ulanyjylaryň hasaplaryna girmegiň kynlygyny ýokarlandyrýar.
+
+4. Şifrlenme Ulanyň
+   Maglumatlaryňyzy şifrlemek, olaryň üçünji taraplar tarapyndan ele geçirilmeginiň öňüni alar. Bu, maglumatlaryňyzyň goraglylygyny üpjün eder.
+
+5. Fishing Synanyşyklaryna Üns Beriň
+   Fishing synanyşyklaryna garşy seresap boluň we şübheli e-poçtalary ýa-da web sahypalaryny açmaň. Bu, zyýanly programma üpjünçiliginiň ulgamlaryňyza girmeginiň öňüni alar.
+
+Bu goranyş we ýüze çykarmak usullary, ransomware hüjümlerinden gorag bermekde we olaryň öňüni almakda kömek eder.
+
+2)Zero day goranmak we ýüze çykarmak.
+Zero-day hüjümler we hüjüm usullary, kiberjenaýatçylarň ýa-da şüpheli ulgamlarň özlerini öwrenmän, olara hüjüm edýän zyýanly usullar. Bu hüjümler zerarly ulgamlar üçin goranyş we ýüze çykarmak üçin birnäçe usul bar:
+
+Goranyş Usullary
+
+1. Next-Generation Antivirus (NGAV) Ulanyň
+   Next-Generation Antivirus (NGAV) ulgamlary, zero-day hüjümlerini detektirowýar we bloklaýar. Olar adatça köp çäkli ölçemeleri bilen amala aşyrylýar.
+
+2. Web Application Firewall (WAF) Ulanyň
+   Web Application Firewall (WAF) ulgamlary, web sahypalaryna gelen şüpheli ulgamlary filtrelemek üçin ulanylýar. Olar şüpheli ulgamlaryň hüjüm edilme ýoluny bloklar.
+
+3. Patch Management (Patch Yönetimi)
+   Patch yönetimi, ulgamlaryň hüjümli çerezini ýygnaw we onuň özlerini düzeltmek üçin ulanylýar. Bu, zero-day hüjümlerini ýüze çykarmakda möhüm rol oýnaýar.
+
+4. Incident Response Plan (Hüjüm Reaksiýa Plan)
+   Hüjüm reaksiýa plany, zero-day hüjümlerini ýüze çykarmakda we olaryň öňüni almakda kömek eder. Bu plan, hüjüm netleşdirilse, kynlyk we reaksiýa proseslerini düzgünleştirýar.
+
+5. Employee Training (Emeğiňçi Trenki)
+   Emeğiňçilere kiberhowpsuzlyk dersleri bermek, zero-day hüjümlerini ýüze çykarmakda we olaryň öňüni almakda kömek eder. Ulanyjylar şüpheli e-poçtalary, web sahypalary ýa-da ulgamlary açmaňa özgürlük berilmez.
+
+Ýüze Çykarmak Usullary
+
+1. Real-Time Monitoring (Wagtli Tizimi)
+   Real-time monitoring (wagtli tizimi) ulgamlaryňyzyň işiniň özüne ýerleşýän hüjümlerini detektirowar we bloklaýar. Bu, hüjüm netleşdirilse, kynlyk we reaksiýa proseslerini düzgünleştirýar.
+
+2. Network Segmentation (Network Bölünme)
+   Network segmentation (network bölünme) ulgamlaryňyzyň arasynda bölünme we gorag berýär. Bu, hüjümli çerezin özlerini düzeltmek üçin möhüm rol oýnaýar.
+
+3. Threat Intelligence (Gözegçilik Maglumatlary)
+   Threat intelligence (gözegçilik maglumatlary) ulgamlaryňyzyň işiniň özüne ýerleşýän hüjümlerini detektirowar we bloklaýar. Bu, hüjüm netleşdirilse, kynlyk we reaksiýa proseslerini düzgünleştirýar.
+
+4. Incident Response Plan (Hüjüm Reaksiýa Plan)
+   Hüjüm reaksiýa plany, zero-day hüjümlerini ýüze çykarmakda we olaryň öňüni almakda kömek eder. Bu plan, hüjüm netleşdirilse, kynlyk we reaksiýa proseslerini düzgünleştirýar.
+
+Bu usullar, zero-day hüjümlerinden gorag bermek we olaryň öňüni almakda kömek eder.
+
+3)Metasploit FTP protokol backdoor goýmaly.
+
+
+
+  15
+1)Ransomware hüjüminiň maliýe ugurlaryna täsiri.
+Ransomware hüjümleri finans sektöründe çäkli täsir edýär. Bu hüjümler finans institutsiýalarynyň işlerini, maglumatlaryny we maliýe ugurlarynyň howpsuzlygynyň üçin çäkli zyýanlar çözýärler. 
+
+Maliýe Ugurlaryna Täsiri
+
+1. Finans Jenaýatlarynyň Zyýanlary
+   Ransomware hüjümleri finans institutsiýalarynyň işleriniň özüne ýerleşýän maglumatlaryň şifrlemesi netleşdirilse, bu ulgamlar finans jenaýatlarynyň işlerini durdurýar we zyýanlar çözýär. Bu, finans jenaýatlarynyň işleriniň özüne ýerleşýän maglumatlaryň şifrlemesi netleşdirilse, bu ulgamlar finans jenaýatlarynyň işlerini durdurýar we zyýanlar çözýär.
+
+2. Maliýe Ugurlarynyň Howpsuzlygy
+   Ransomware hüjümleri finans institutsiýalarynyň maliýe ugurlarynyň howpsuzlygyny ýokarlandyrýar. Bu hüjümler finans institutsiýalarynyň maliýe ugurlarynyň maglumatlaryny şifrlemek we ony açmak üçin pul talap etmekden başlar. Bu, finans institutsiýalarynyň maliýe ugurlarynyň howpsuzlygyny ýokarlandyrýar.
+
+3. Reputasiýanyň Zýýanlary
+   Ransomware hüjümleri finans institutsiýalarynyň reputasiýasyny zýýanlar edýär. Bu hüjümler finans institutsiýalarynyň maglumatlaryny şifrlemek we ony açmak üçin pul talap etmekden başlar. Bu, finans institutsiýalarynyň reputasiýasyny zýýanlar edýär.
+
+4. Operatiýalaryň Zýýanlary
+   Ransomware hüjümleri finans institutsiýalarynyň operatiýalaryny zýýanlar edýär. Bu hüjümler finans institutsiýalarynyň işlerini durdurýar we zyýanlar çözýär. Bu, finans institutsiýalarynyň operatiýalaryny zýýanlar edýär.
+
+5. Jenaýatlar Bilen Bagly Maglumatlary
+   Ransomware hüjümleri finans institutsiýalarynyň jenaýatlar bilen bagly maglumatlary şifrlemekden başlar. Bu, finans institutsiýalarynyň jenaýatlar bilen bagly maglumatlary şifrlemekden başlar. Bu, finans institutsiýalarynyň jenaýatlar bilen bagly maglumatlary şifrlemekden başlar.
+
+2)Zero Trust modeli baarada düşünje we onuň ulanýan guramalar.
+Elbetde, Zero Trust modelini has giňişleýin düşündirjek:
+
+Zero Trust Modeli Nedir?
+
+Zero Trust modeli, 2010-njy ýylda Forrester Research-dan John Kindervag tarapyndan öňe sürlen we içki we daşarky torlaryň hiç birine awtomatik ynam etmezlik esasynda işleýän kiberhowpsuzlyk strategiýasydyr. Zero Trust filosofiýasyna görä, her ulanyjy we her gural täjirçilik ýa-da döwlet guramasyndaky bir resursdan peýdalanmak üçin awtorlaşdyrylmaly we anyklanmaly.
+
+Zero Trust Modeliniň Esasy Prinsipleri
+
+1. Kimlik Doğrulaması:
+   - Her ulanyjy we gural tanylmaly we anyklanmaly.
+   - Multi-Factor Authentication (MFA) ulanylmaly, diňe bir parol bilen girişiň öňi alynýar.
+
+2. En Az Hak Politikasy:
+   - Ulanyjylar we gurallar diňe ýüze çykarylan resurslara giriş gurmaga rugsat berilýär.
+   - Ýalňyşlyk bilen ýa-da bilkastlaýyn bir ulanyjynyň gerekliliklerinden artykmaç hukuklara eýe bolmagynyň öňi alynýar.
+
+3. Tor Segmentasiýasy:
+   - Torlar içki maglumatlary goramak üçin segmentlere bölünýär.
+   - Bu, hüjümleriň çylşyrymly bolmagyny we hüjümler biri-birine geçirilmegini öňüni alar.
+
+4. Köp Derejeli Gözegçilik we Awdit:
+   - Tordaky her hereketin yzarlanyp we ýazgy edilýän güýçli awdit we gözegçilik ulgamlary ulanylmaly.
+   - Howpsuzlyk hadysalary wagtynda ýüze çykarylyp çözülmeli.
+
+5. Maglumatyň Şifrlenmegi:
+   - Ulanyjy maglumatlaryny we gurallaryň habarlasmasyny şifrlemek üçin güýçli şifrleme algoritmleri ulanylmaly.
+
+Zero Trust Modelini Ulanyp Guramalar
+
+Zero Trust modeli uly we kiçi guramalar üçin aýratyn peýdalydyr. Aşakdakylar, Zero Trust filosofiýasyny ulanýan käbir uly guramalardyr:
+
+1. Google:
+   - BeyondCorp inisiatiwasy bilen Google, içki howpsuzlyk syýasatlaryny täzeden gözden geçirip, uzakdan işlemäge has ygtybarly ýollar döredýär.
+
+2. Microsoft:
+   - Microsoft, Azure platformasy arkaly Zero Trust prinsiplerini köp müşderisine ýetirýär.
+
+3. Cisco:
+   - Cisco Zero Trust arkitektura çözgütleri bilen kompaniýalara howpsuzlyklaryny ýokarlandyrmaga kömek edýär.
+
+Netije
+
+Zero Trust modeli, häzirki kiberhowpsuzlyk ugurlarynda esasy strategiki çemeleşmeleriň biridir. Her ulanyjy we her gural üçin gezekleşikli anyklama we awtorlaşdyryş esasynda işlemek arkaly, guramalar diňe bir hüjümleriň öňüni almak bilen çäklenmän, şeýle hem maglumatlary goramagyň has ýönekeý we täsirli usullaryny hem ulanyp bilerler.
+
+3)Wireshark-da pakedi seljerip gowşaklyklary ýüze çykarmak.
+
+
+ 16
+1)SOAR ulgamynyň artykmaçlyklary.
+
+ SOAR Ulgamy Nedir?
+
+SOAR, kiberhowpsuzlyk operasiýalarynyň dolandyrylmagyny, awtomatlaşdyrylmagyny we jogap berilmegini öz içine alýan, kiberhowpsuzlyk ulgamynda giňden ulanylýan bir çözgütdir. Bu ulgam, kiberhowpsuzlyk operasiýalaryny merkezi bir platformada birleşdirip, awtomatlaşdyryp we ýokary netijeliligi üpjün edýär.
+
+ SOAR Ulgamynyň Esasy Funksiýalary
+
+1. Orkestrasiýa:
+   - Kiberhowpsuzlyk çözgütlerini we ulgamlaryny merkezi bir ýerdä birleşdirip, operasiýalary koordine edýär.
+   - Şeýlelikde, dürli ulgamlaryň we gurallaryň arasynda utgaşyklylyk we ygtybarlylyk ýokarlanýar.
+
+2. Awtomatlaşdyryş:
+   - Awtomatiki iş akymlaryny ulanyp, el bilen ýerine ýetirilýän işleriň awtomatlaşdyrylmagyny üpjün edýär.
+   - Howpsuzlyk toparlarynyň el bilen ýerine ýetirýän işleriniň azaldylmagy bilen netijelilik ýokarlanýar we resurslar tygşytlanýar.
+
+3. Jogap Beriş:
+   - Howpsuzlyk hadysalaryna dessine we netijeli jogap bermegiň usullaryny üpjün edýär.
+   - Tehnologik ulgamlar arkaly hadysalaryň ýüze çykarylmagy, seljerilmegi we jogap berilmegi has çaltlaşdyrylýar.
+
+4. Analiz we Inzibati Synlar:
+   - Howpsuzlyk hadysalarynyň derňelmegi we maglumatlaryň yzygiderli gözegçilik astyna alynmagy.
+   - Düşnükli we peýdaly raportlar arkaly howpsuzlyk maglumatlarynyň kämilleşdirilmegi.
+
+5. Howpsuzlyk Incidendent Dolandyryşy:
+   - Ýaryş hadysalaryny anyklamak we olara dessine jogap bermek üçin iş akymlaryny döretmek.
+   - Ulgamdaky her bir hadysanyň doly görkezilişi we anyklanyşy has giňişleýin edilýär.
+
+ SOAR Ulgamynyň Artykmaçlyklary
+
+1. Netijelilik:
+   - El bilen ýerine ýetirilmeli işleriň awtomatlaşdyrylmagy bilen, howpsuzlyk operasiýalary çaltlaşdyrylýar we az kynçylyklara sebäp bolýar.
+   - Howpsuzlyk toparlarynyň iş öndürijiligi ýokarlanýar.
+
+2. Wezipesiniň Aýdyňlygy:
+   - Ulgamdaky ähli howpsuzlyk hadysalary bir ýerden gözegçilik edilýär we analizm edilýär.
+   - Hadysalaryň anyklanyşyny we gözegçiligini aňsatlaşdyrýar.
+
+3. Riski Azaltmak:
+   - Tehnologik awtomatlaşdyrylan jogaplar bilen, kynçylyklaryň öňi alynýar we tiz jogap bermek mümkinçiligi ýokarlanýar.
+   - Tiz jogap bermek arkaly, howpsuzlyk we maglumat resurslarynyň goraglylygy güýçlendirilýär.
+
+4. Resurslaryň Tygşytlanmagy:
+   - Awtomatiki prosesler bilen, işçi güýjüniň ýokarlanmagy we wagtyň tygşytlanmagy.
+   - Hyzmatlaryň we gurallaryň netijelilik bilen ulanylmagy.
+
+5. Kämilleşdirilen Gözegçilik we Dolandyryş:
+   - Howpsuzlyk hadysalaryna doly gözegçilik we derňew işleriniň geçirilmegi.
+   - Howpsuzlyk operasiýalarynyň ätiýaçlandyrylmagy we yzygiderli gowulaşdyrylmagy.
+
+SOAR ulgamy, kiberhowpsuzlyk operasiýalarynyň çalt we netijeli ýerine ýetirilmegine uly goşant goşýan bir çözgüt bolup durýar. Bu ulgam, döwrebap guramalar üçin riski azaltmak we howpsuzlyk operasiýalaryny kämilleşdirmek üçin möhüm bir araç gereçdir.
+
+2)Network Behaiver Analistics (NBA).
+Elbetde, Network Behavior Analysis (NBA) barada has giňişleýin maglumat berjek:
+
+ Tor Maglumatynyň Yzarlanmagy (NBA)
+
+NBA, tor maglumatlaryny toplamak we seljermek arkaly adaty däl ýa-da zyýanly işjeňligi ýüze çykarmak üçin ulanylýan kiberhowpsuzlyk tehnikasydyr. Bu ulgam, tor akymlaryny we maglumat akymlaryny seljerip, tor howpsuzlygyna zyýan ýetirmegiň öňüni alar ýaly potensial howplary anyklamaga kömek edýär.
+
+ NBA Nädip Işleýär?
+
+1. Maglumat Toplamak: NBA ulgamlary, toruň dürli çeşmelerinden, meselem, routerler, switçler we firewallerden maglumatlary toplar.
+2. Seljerme: Toplanan maglumatlar gurnama öwrenilmek we tendensiýalary anyklamak üçin seljeriler. Adaty däl hereketleri ýüze çykarmak üçin köplenç maşyn öwreniş algoritmleri ulanylýar.
+3. Adatdan daşary Hadysalary Anyklamak: NBA gurallary häzirki tor hereketlerini öňden belliklenen ýagdaýlar bilen deňeşdirip, adatdan daşary hadysalary ýüze çykarar.
+4. Duýduryş we Jogap: Adatdan daşary hadysalar ýüze çykarylanda, ulgam duýduryş döredip, awtomatiki jogaplary ýa-da howpsuzlyk işgärlerine habar bermek üçin çäreleri işjeňleşdirip biler.
+
+ NBA Ulgamynyň Artykmaçlyklary
+
+- Irki Anyklama: NBA täze we ösýän howplary, şol sanda noldan günä görkezijileri we ösen zyýanly programma üpjünçiligini ýüze çykarmaga kömek eder.
+- Jogap Beriş Wagtynyň Azaldylmagy: NBA-yň awtomatlaşdyrylan işleşi hadysalaryň tiz anyklanyp, çözülmegini üpjün eder.
+- Howpsuzlygyň Güýçlendirilmegi: NBA beýleki howpsuzlyk çärelere, meselem, firewaller, gurnalma ýygnama ulgamlary (IDS) we antywirus programmalara goşant goşar, has doly bir howpsuzlyk çözgüdini hödürlär.
+
+ NBA Ulgamynyň Çatlaklyklary
+
+- Bahasy: NBA ulgamlarynyň gurulmagy we dolandyrylmagy gymmat bolup biler, kiçi biznesler üçin elýeterliligi azaldyp biler.
+- Çylşyrymlylygy: NBA yzygiderli gözegçilik we seljerme talap eder, resurs talaplaryny artdyryp biler.
+
+3)SSH port forwarding (Bir kompýuterden 80-nji portdan çykmaly, beýleki kompýuteriň 80-nji portyndan girmeli).
+
+17
+1)Diffi-Helman
+Diffie-Hellman algoritmasy, 1976-njy ýylda Whitfield Diffie we Martin Hellman tarapyndan işlenip düzülen açyk açarly kriptografik protokoldur. Bu algoritma, iki tarapyň, aragatnaşyk kanalynyň üstünden geçirilýän maglumatlara gizlin şifrleýji açaryň dogrudan geçirilmezden, bilelikde gizlin açar döretmegine mümkinçilik berýär. 
+
+ Diffie-Hellman Algoritmasynyň Esasy Prensipleri
+
+1. Açar Alyş-çalyşy: Iň möhüm aýratynlygy, iki tarapyň hemmelere mälim edilýän umumy açaryň üsti bilen gizlin açar döretmegidir.
+2. Matematiki Esas: Bu proses matematiki esasda işlenýär we ony sypdyrmak kynlaşdyrar. 
+3. Umumy we Gizlin Açarlar: Iki tarap, umumy ýörite sanlary we olaryň arasyndaky matematiki amallary peýdalanyp, özlerine degişli gizlin açarlar öndürýärler.
+
+ Diffie-Hellman Algoritmasynyň Howpsuzlygy
+
+Algoritma, "Diffie-Hellman" ikä çyrşydýan tapmaçalyklaryň kynçylygy sebäpli has howpsuz hasaplanylýar. Şonuň üçin gizlin açaryň beýik sanlar bilen işleýişi howpsuzlygy güýçlendirýär.
+
+ Algoritm Nädip Işleýär?
+
+1. Umumy Ýokary We Ýönekeý Sanlar (p we g): Iki tarap hem umumy bir başlangyç sanlar p we g barada ylalaşar.
+2. Şahsy Sanlar (a we b): Taraplaryň her biri diňe özleriniň bilýän şahsy sanlaryny (a we b) saýlarlar.
+3. Umumy Açar (A we B): Taraplaryň her biri umumy açarlary (A we B) öndürerler.
+   - Tarap A: $$A = g^a \mod p$$
+   - Tarap B: $$B = g^b \mod p$$
+4. Gizlin Açar: Taraplaryň her biri öz umumy açarlaryndan we beýleki tarapdan alnan umumy açary ulanyp, diňe özleri bilýän bir gizlin açar dörederler.
+   - Tarap A: $$S = B^a \mod p$$
+   - Tarap B: $$S = A^b \mod p$$
+
+Bu prosesde, gizlin açarlar howpsuz ýagdaýda alyş-çalyş edilýän maglumatlara şifrleýjilik hyzmat eder.
+
+2)SIEM ulgamlarynda uly göwrümli maglumatlar bilen işlemek. Bigdata
+Security Information and Event Management (SIEM) ulgamlary, uly göwrümli maglumatlary işlemekde Big Data teknologiýalaryny ulanýar. Bu ulgamlar, real-time monitoring we log data analizlenmegini özgerdişli döredýärler. 
+
+ SIEM we Big Data
+
+1. Maglumat Toplamak: SIEM ulgamlary, toruň dürli çeşmelerinden maglumatlary toplar we saklar.
+2. Analiz: Big Data teknologiýalary, bu maglumatlary tezden-teze analizlemekde kömek eder, maglumatlaryň içerki patternlary we trendleri anyklamakda.
+3. Gizlin Hadysalary Anyklama: Machine learning we statistiki modelleler, SIEM ulgamlarynyň gizlin hadysalaryny anyklamagyda ulanylýar.
+4. Duýduryş we Habar Baryş: SIEM ulgamlary, maglumatlaryň içerki patternlary we anomalileri anyklamakda, real-time habar baryşy we duýduryşlary döredýärler.
+
+ SIEM ulgamlarynyň Big Data bilen işleşmegi
+
+- Şkalablılık: SIEM ulgamlary, ösýen toruň ihtiyacynyň üçin özgerdişli bolup biljekdigi üçin şkalablanyşygy saklamalydyr.
+- Gizlin Hadysalary Anyklama: Big Data analizlary, SIEM ulgamlarynyň gizlin hadysalaryny tezden-teze anyklamagyda kömek eder.
+- Kompyuter Güýçlendirme: SIEM ulgamlary, uly göwrümli maglumatlary işlemek üçin kompyuter güýçlendirme tehnologiýalaryny ulanýar.
+
+Bu ulgamlar, kiberhowpsuzlyk ulgamlarynyň esasy komponentlerinden biridir we organizasiýalarynyň maglumatlarynyň howpsuzlygyny özgerdişli saklamagyda kömek ederler.
+
+3)OSINT. Plany Planyýew kripto kaşilýogyny tapmaly. Tranzaksiýalary görmeli.
+
+
+
+18
+1)DDOS garşy göreşmegiň mehanizmleri.
+DDoS (Distributed Denial of Service) hüjümlerine garşy göreşmek üçin dürli mehanizmler bar. Bu mehanizmler kiberhowpsuzlyk goragyny güýçlendirýär we hüjümleriň täsirini azaldýar. Aşakda käbir möhüm mehanizmler barada maglumat berilýär:
+
+ 1. Tor Trafigini Filtrleme
+
+- In-Line Filtrleme: Ulanyjy trafigini yzygiderli barlap, zyýanly trafigi bloklaýar. Bu, adatça, IDS (Intrusion Detection Systems) we IPS (Intrusion Prevention Systems) ulgamlary arkaly amala aşyrylýar.
+- Layer 7 Filtrleme: HTTP ýaly belli bir protokollary barlap, adatdan daşary trafigi anyklaýar we bloklaýar.
+
+ 2. Bulut-Based Gorag
+
+- Bulut-Based CDN: Content Delivery Networks (CDN) ulanyp, ulanyjy trafigini dünýä boýunça paýlamak. Bu, hüjüm trafigini paýlamak arkaly onuň täsirini azaldýar.
+- Bulut-Based DDoS Mitigation Services: Akamai, Cloudflare we Amazon AWS ýaly hyzmatlar, trafigi analizlemek we DDoS hüjümlerini bloklamak üçin ulanylýar.
+
+ 3. Hüjüm Trafigini Goramak
+
+- Rate Limiting: Ulanyjy trafiginiň mukdaryny çäklendirip, adatdan daşary trafigiň öňüni almak.
+- IP Blacklisting/Whitelisting: Hüjümçileriň IP adreslerini gara sanawlara goşup, şol IP-lerden gelen trafigi bloklamak.
+
+ 4. Awtonom Torlar we Botnetleri Anyklamak
+
+- Maşyn Öwrenişi: Maşyn öwreniş algoritmleri ulanyp, tor trafigindäki adatdan daşary hereketleri anyklamak.
+- Botnetleri Yzarlamak: Hüjümçileriň ulanylýan botnetleri anyklap, şol torlaryň öňüni almak.
+
+ 5. Multi-Factor Authentication (MFA)
+
+- Güçli Kimlik Doğrulama: Multi-Factor Authentication (MFA) ulanyp, ulanyjylaryň hasaplaryny goramak. Bu, hüjümçileriň hasaplara girmeginiň öňüni almakda möhüm rol oýnaýar.
+
+ 6. Çeýe Gorag Mekanizmleri
+
+- Anyklama we Jogap Beriş: Hüjümleri tiz anyklamak we olaryň täsirini azaltmak üçin awtomatiki jogap beriş mehanizmlerini ulanyň.
+- Gözegçilik we Analiz: Toruň we hyzmatlaryň üsti bilen yzygiderli gözegçilik geçirip, hüjümleriň öňüni almak üçin çeýe strategiýalary ulanyň.
+
+2)Zero Trust Modeli barada düşünje.
+Zero Trust modeli, 2010-njy ýylda Forrester Research-dan John Kindervag tarapyndan öňe sürlen kiberhowpsuzlyk çemeleşmesidir. Bu model, içerki we daşarky torlarda kimseye awtomatiki ynam etmezlik esasynda işleýär. Zero Trust filosofiýasynyň esasy prinsipleri şular:
+
+ Esasy Prinsipler:
+
+1. Kimlik Doğrulama:
+   - Her ulanyjy we gural kimliklerini anyklatmalydyr.
+   - Multi-Factor Authentication (MFA) ulanylyp, girişiň howpsuzlygyny ýokarlandyrýar.
+
+2. En Az Hak Syýasaty:
+   - Ulanyjylar we gurallar diňe gerekli resurslara giriş haklaryna eýe bolmaly.
+   - Gereksiz hukuklaryň öňüni almak üçin kesgitlenen düzedişler girizilýär.
+
+3. Tor Segmentasiýasy:
+   - Torlar dürli segmentlere bölünýär we her segment aýratyn goralmaly.
+   - Bu, hüjümleriň bir segmentden beýlekisine geçmeginiň öňüni alar.
+
+4. Daşarky we Içerki Hüjümleriň Görkezilmegi:
+   - Daşarky we içerki hüjümleri anyklamak we bloklamak üçin güýçli gözegçilik ulgamlary ulanylýar.
+   - IDS (Intrusion Detection Systems) we IPS (Intrusion Prevention Systems) ulgamlary ulanylýar.
+
+5. Awtomatlaşdyrma we Gözegçilik:
+   - Awtomatiki gözegçilik we anyklama ulgamlary ulanylyp, tordaky her hereket gözegçilik astyna alynýar.
+   - Howpsuzlyk syýasatlaryna yzygiderli gözegçilik edilýär we zerur bolanda düzedişler girizilýär.
+
+ Zero Trust Modeliniň Artykmaçlyklary:
+
+- Howpsuzlygyň Güçlendirilmegi: Her ulanyjy we gural hemme zadyňy yzygiderli anyklanýar we gözegçilik astynda saklanýar.
+- Riskleriň Azaldylmagy: Her ulanyjy we gurallaryň diňe gerekli resurslara girip bilmegi bilen, ähli görnüşli howpsuzlyk riskleri azaldylýar.
+- Içerki Hüjümlere Garşy Gorag: Içerki hüjümleri anyklamak we bloklamak üçin güýçli gözegçilik ulgamlary ulanylýar.
+
+Zero Trust modeli, häzirki wagtda kiberhowpsuzlygyň iň öňdebaryjy çemeleşmelerinden biri bolup durýar we guramalaryň goragyny ýokarlandyrmaga ýardam edýär.
+
+3)Syn Flooding paketlerini Wireshark-yň üsti bilen seljermek.
+
+
+19
+1)IDS/IPS
+Intrusion Detection System (IDS)
+
+IDS ulgamy, tor we ulgamlardaky howpsuzlyk hadysalaryny anyklamak we olara duýduryş bermek üçin ulanylýar. IDS, tor trafigini yzarlap, adatdan daşary hereketleri anyklaýar we administratorlara duýduryş berýär. IDS ulgamlarynyň iki esasy görnüşi bar:
+
+1. Network-based IDS (NIDS):
+   - Toruň dürli nokatlarynda ýerleşdirilip, tor trafigini barlaýar.
+   - Adatdan daşary tor akymlaryny we hüjümleri anyklamak üçin ulanylýar.
+
+2. Host-based IDS (HIDS):
+   - Göni öý eýeçiliginde ýerleşdirilip, şol öýde bolup geçýän hereketleri yzarlap we barlaýar.
+   - Adatdan daşary faýl üýtgetmeleri ýa-da log ýazgylaryny yzarlamak üçin ulanylýar.
+
+Intrusion Prevention System (IPS)
+
+IPS ulgamy, IDS ýaly tor we ulgamlardaky howpsuzlyk hadysalaryny anyklamak bilen birlikde, anyklanan hadysalary bloklamak we olaryň täsirini azaltmak üçin ulanylýar. IPS, aktiv müdahale edip, hüjümlere garşy goragy üpjün edýär. IPS ulgamlarynyň iki esasy görnüşi bar:
+
+1. Network-based IPS (NIPS):
+   - Toruň dürli nokatlarynda ýerleşdirilip, tor trafigini barlaýar we hüjümleri bloklaýar.
+   - Adatdan daşary tor akymlaryny anyklamak we bloklamak üçin ulanylýar.
+
+2. Host-based IPS (HIPS):
+   - Göni öý eýeçiliginde ýerleşdirilip, şol öýde bolup geçýän hereketleri barlaýar we bloklaýar.
+   - Adatdan daşary faýl üýtgetmeleri ýa-da log ýazgylaryny bloklamak üçin ulanylýar.
+
+IDS/IPS Ulgamlarynyň Artykmaçlyklary
+
+- Irki Anyklama: IDS we IPS ulgamlary, hüjümleriň irki tapgyrlarynda anyklap, administratorlara duýduryş berýär.
+- Aktiv Müdahale: IPS ulgamlary, anyklanan hüjümleri dessine bloklamak arkaly aktiw müdahale edýär.
+- Howpsuzlygyň Güçlendirilmegi: IDS we IPS ulgamlary, tor we ulgamlaryň goragyny güýçlendirip, hüjümleriň täsirini azaldýar.
+
+IDS/IPS Ulgamlarynyň Çäklilikleri
+
+- Ýalňyş Pozitiwler: IDS ulgamlary käte adaty hereketleri hem howpsuzlyk hadysasy hökmünde duýduryş berýär, bu bolsa administratorlary meşgul edip biler.
+- Goragyň Aýyrdyşygy: IPS ulgamlary kämahal adaty hereketleri hem bloklap, ulanyjy tejribesini peseldip biler.
+
+IDS we IPS ulgamlary, kiberhowpsuzlyk strategiýasynyň möhüm bölegi bolup, guramalaryň tor we ulgamlaryny hüjümlerden goramakda uly rol oýnaýar.
+
+2)Inwentarizasiýa
+Inwentarizasiýa, bir guramanyň eýeçiliginde bolan ähli harytlaryň, serişdeleriň, enjamlaryň we beýleki zatlaryň dolandyrylmagyny we hasaba alynmagyny aňladýar. Bu, guramanyň ähli baýlyklarynyň doly sanawyny saklamaga we olaryň ýagdaýyny, mukdaryny, ýerini we bahasyny yzarlamaga mümkinçilik berýär. Inwentarizasiýanyň esasy esasy maksatlary we artykmaçlyklary aşakda berilýär:
+
+ Inwentarizasiýanyň Esasy Maksatlary
+
+1. Hasaplaşyk We Dolandyryş:
+   - Guramanyň ähli baýlyklaryny dogry hasaba almak we dolandyrmak.
+   - Mukdary, ýagdaýy we ýeri anyklamak.
+
+2. Maliýe Ýokaryllamasy:
+   - Guramanyň maliýe ýagdaýyny we ykdysady potensialyny ýüze çykarmak.
+   - Enjamlaryň we harytlaryň gymmatyny yzarlamak we bahalandyrmak.
+
+3. Maglumatlary Gozgalmak:
+   - Guramanyň ähli inwentar maglumatlaryny yzygiderli täzelemek we gözden geçirmek.
+   - Harytlar we serişdeler barada maglumat almak üçin hasaplar döretmek.
+
+ Inwentarizasiýanyň Artykmaçlyklary
+
+1. Resurslary Tygşytlamak:
+   - Inwentar dolandyryşy bilen resurslaryň yzygiderli we netijeli ulanylmagyny üpjün etmek.
+   - Harytlaryň we enjamlaryň ygtybarly ýagdaýda saklanmagy.
+
+2. Hasap Üýtgetmeleri Yzarlamak:
+   - Harytlaryň we enjamyň yzarlanyşy we hasaba alnyşy bilen näsazlyklaryň we ýalňyşlaryň öňüni almak.
+   - Inwentar maglumatlarynyň yzygiderli gözden geçirilmegi we üýtgetmeleriniň yzarlanmagy.
+
+3. Önümçilik Proseslerini Kämilleşdirmek:
+   - Inwentar maglumatlary bilen önümçilik prosesleriniň gowulaşdyrylmagy we işleriň tizleşdirilmegi.
+   - Harytlar we serişdeler barada anyk maglumat almak.
+
+4. Maliýe Ygtyýarlygy:
+   - Guramanyň maliýe ýagdaýynyň dogry yzarlanmagy we bahalandyrmak.
+   - Inwentar gymmatynyň we mukdarynyň doly anyklanylmagy.
+
+ Inwentarizasiýa Prosesleri
+
+1. Harytlaryň we Enjamyň Sanawyny Döretmek:
+   - Guramanyň ähli harytlarynyň we enjamlarynyň doly sanawyny döretmek.
+   - Harytlaryň mukdaryny, ýagdaýyny we ýerini anyklamak.
+
+2. Maglumatlary Täzelemek:
+   - Inwentar maglumatlaryny yzygiderli täzelemek we gözden geçirmek.
+   - Sanawdaky üýtgetmeleri yzygiderli yzarlamak.
+
+3. Hasap Üýtgetmelerini Anyklamak:
+   - Harytlaryň we enjamyň hasaba alynmagy we ýitirilmegi bilen baglanyşykly üýtgetmeleri anyklamak.
+   - Inwentar maglumatlary bilen näsazlyklaryň öňüni almak.
+
+Inwentarizasiýa, guramalaryň resurslaryny netijeli dolandyrmak we maliýe ygtyýarlygyny güýçlendirmek üçin möhüm bir prosesdir.
+
+3)Linux servere ssh arkaly diňe bir IP bilen biriger ýaly etmeli, ssh arkaly başga IP-ler bilen birikmez ýaly etmeli. (UFW firewall)
